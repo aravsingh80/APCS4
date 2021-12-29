@@ -1,0 +1,4245 @@
+LunchRoom(arrival chance is 0.2) with 1 Pqueue / 1 service areas
+
+New Customer 0:Se
+
+0: []
+  Service Area #1: 0:Se:6
+
+New Customer 1:Fr
+
+1:[1:Fr]
+  Service Area #1: 0:Se:5
+
+2:[1:Fr]
+  Service Area #1: 0:Se:4
+
+New Customer 3:Se
+
+3:[1:Fr, 3:Se]
+  Service Area #1: 0:Se:3
+
+4:[1:Fr, 3:Se]
+  Service Area #1: 0:Se:2
+
+5:[1:Fr, 3:Se]
+  Service Area #1: 0:Se:1
+
+Customer# 0:Se leaves and his/her total wait time is 6
+
+6:[1:Fr]
+  Service Area #1: 3:Se:7
+
+New Customer 7:Se
+
+7:[1:Fr, 7:Se]
+  Service Area #1: 3:Se:6
+
+8:[1:Fr, 7:Se]
+  Service Area #1: 3:Se:5
+
+9:[1:Fr, 7:Se]
+  Service Area #1: 3:Se:4
+
+10:[1:Fr, 7:Se]
+  Service Area #1: 3:Se:3
+
+11:[1:Fr, 7:Se]
+  Service Area #1: 3:Se:2
+
+New Customer 12:Fr
+
+12:[1:Fr, 7:Se, 12:Fr]
+  Service Area #1: 3:Se:1
+
+Customer# 3:Se leaves and his/her total wait time is 10
+
+13:[1:Fr, 12:Fr]
+  Service Area #1: 7:Se:4
+
+14:[1:Fr, 12:Fr]
+  Service Area #1: 7:Se:3
+
+New Customer 15:Ju
+
+15:[15:Ju, 12:Fr, 1:Fr]
+  Service Area #1: 7:Se:2
+
+16:[15:Ju, 12:Fr, 1:Fr]
+  Service Area #1: 7:Se:1
+
+Customer# 7:Se leaves and his/her total wait time is 10
+
+New Customer 17:Fr
+
+17:[1:Fr, 12:Fr, 17:Fr]
+  Service Area #1: 15:Ju:6
+
+18:[1:Fr, 12:Fr, 17:Fr]
+  Service Area #1: 15:Ju:5
+
+New Customer 19:So
+
+19:[19:So, 12:Fr, 17:Fr, 1:Fr]
+  Service Area #1: 15:Ju:4
+
+20:[19:So, 12:Fr, 17:Fr, 1:Fr]
+  Service Area #1: 15:Ju:3
+
+21:[19:So, 12:Fr, 17:Fr, 1:Fr]
+  Service Area #1: 15:Ju:2
+
+22:[19:So, 12:Fr, 17:Fr, 1:Fr]
+  Service Area #1: 15:Ju:1
+
+Customer# 15:Ju leaves and his/her total wait time is 8
+
+New Customer 23:So
+
+23:[23:So, 12:Fr, 17:Fr, 1:Fr]
+  Service Area #1: 19:So:5
+
+24:[23:So, 12:Fr, 17:Fr, 1:Fr]
+  Service Area #1: 19:So:4
+
+New Customer 25:So
+
+25:[23:So, 25:So, 17:Fr, 1:Fr, 12:Fr]
+  Service Area #1: 19:So:3
+
+New Customer 26:So
+
+26:[23:So, 25:So, 17:Fr, 1:Fr, 12:Fr, 26:So]
+  Service Area #1: 19:So:2
+
+New Customer 27:So
+
+27:[23:So, 25:So, 27:So, 1:Fr, 12:Fr, 26:So, 17:Fr]
+  Service Area #1: 19:So:1
+
+Customer# 19:So leaves and his/her total wait time is 9
+
+28:[27:So, 25:So, 17:Fr, 1:Fr, 12:Fr, 26:So]
+  Service Area #1: 23:So:4
+
+29:[27:So, 25:So, 17:Fr, 1:Fr, 12:Fr, 26:So]
+  Service Area #1: 23:So:3
+
+30:[27:So, 25:So, 17:Fr, 1:Fr, 12:Fr, 26:So]
+  Service Area #1: 23:So:2
+
+31:[27:So, 25:So, 17:Fr, 1:Fr, 12:Fr, 26:So]
+  Service Area #1: 23:So:1
+
+Customer# 23:So leaves and his/her total wait time is 9
+
+32:[27:So, 26:So, 17:Fr, 1:Fr, 12:Fr]
+  Service Area #1: 25:So:3
+
+33:[27:So, 26:So, 17:Fr, 1:Fr, 12:Fr]
+  Service Area #1: 25:So:2
+
+34:[27:So, 26:So, 17:Fr, 1:Fr, 12:Fr]
+  Service Area #1: 25:So:1
+
+Customer# 25:So leaves and his/her total wait time is 10
+
+New Customer 35:Fr
+
+35:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr]
+  Service Area #1: 26:So:6
+
+36:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr]
+  Service Area #1: 26:So:5
+
+New Customer 37:Se
+
+37:[27:So, 37:Se, 17:Fr, 1:Fr, 35:Fr, 12:Fr]
+  Service Area #1: 26:So:4
+
+38:[27:So, 37:Se, 17:Fr, 1:Fr, 35:Fr, 12:Fr]
+  Service Area #1: 26:So:3
+
+39:[27:So, 37:Se, 17:Fr, 1:Fr, 35:Fr, 12:Fr]
+  Service Area #1: 26:So:2
+
+New Customer 40:Fr
+
+40:[27:So, 37:Se, 17:Fr, 1:Fr, 35:Fr, 12:Fr, 40:Fr]
+  Service Area #1: 26:So:1
+
+Customer# 26:So leaves and his/her total wait time is 15
+
+41:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:7
+
+42:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:6
+
+43:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:5
+
+44:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:4
+
+45:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:3
+
+46:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:2
+
+47:[27:So, 12:Fr, 17:Fr, 1:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 37:Se:1
+
+Customer# 37:Se leaves and his/her total wait time is 11
+
+New Customer 48:Ju
+
+48:[1:Fr, 48:Ju, 17:Fr, 40:Fr, 35:Fr, 12:Fr]
+  Service Area #1: 27:So:2
+
+49:[1:Fr, 48:Ju, 17:Fr, 40:Fr, 35:Fr, 12:Fr]
+  Service Area #1: 27:So:1
+
+Customer# 27:So leaves and his/her total wait time is 23
+
+50:[1:Fr, 12:Fr, 17:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 48:Ju:5
+
+51:[1:Fr, 12:Fr, 17:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 48:Ju:4
+
+52:[1:Fr, 12:Fr, 17:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 48:Ju:3
+
+53:[1:Fr, 12:Fr, 17:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 48:Ju:2
+
+54:[1:Fr, 12:Fr, 17:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 48:Ju:1
+
+Customer# 48:Ju leaves and his/her total wait time is 7
+
+55:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:7
+
+56:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:6
+
+57:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:5
+
+58:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:4
+
+59:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:3
+
+60:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:2
+
+61:[17:Fr, 12:Fr, 35:Fr, 40:Fr]
+  Service Area #1: 1:Fr:1
+
+Customer# 1:Fr leaves and his/her total wait time is 61
+
+New Customer 62:Se
+
+62:[62:Se, 40:Fr, 35:Fr, 17:Fr]
+  Service Area #1: 12:Fr:7
+
+New Customer 63:So
+
+63:[62:Se, 63:So, 35:Fr, 17:Fr, 40:Fr]
+  Service Area #1: 12:Fr:6
+
+64:[62:Se, 63:So, 35:Fr, 17:Fr, 40:Fr]
+  Service Area #1: 12:Fr:5
+
+65:[62:Se, 63:So, 35:Fr, 17:Fr, 40:Fr]
+  Service Area #1: 12:Fr:4
+
+New Customer 66:Fr
+
+66:[62:Se, 63:So, 35:Fr, 17:Fr, 40:Fr, 66:Fr]
+  Service Area #1: 12:Fr:3
+
+67:[62:Se, 63:So, 35:Fr, 17:Fr, 40:Fr, 66:Fr]
+  Service Area #1: 12:Fr:2
+
+68:[62:Se, 63:So, 35:Fr, 17:Fr, 40:Fr, 66:Fr]
+  Service Area #1: 12:Fr:1
+
+Customer# 12:Fr leaves and his/her total wait time is 57
+
+69:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 62:Se:6
+
+70:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 62:Se:5
+
+71:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 62:Se:4
+
+New Customer 72:Ju
+
+72:[17:Fr, 72:Ju, 35:Fr, 66:Fr, 40:Fr, 63:So]
+  Service Area #1: 62:Se:3
+
+73:[17:Fr, 72:Ju, 35:Fr, 66:Fr, 40:Fr, 63:So]
+  Service Area #1: 62:Se:2
+
+74:[17:Fr, 72:Ju, 35:Fr, 66:Fr, 40:Fr, 63:So]
+  Service Area #1: 62:Se:1
+
+Customer# 62:Se leaves and his/her total wait time is 13
+
+75:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 72:Ju:5
+
+76:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 72:Ju:4
+
+New Customer 77:Se
+
+77:[17:Fr, 77:Se, 35:Fr, 66:Fr, 40:Fr, 63:So]
+  Service Area #1: 72:Ju:3
+
+New Customer 78:Ju
+
+78:[78:Ju, 77:Se, 17:Fr, 66:Fr, 40:Fr, 63:So, 35:Fr]
+  Service Area #1: 72:Ju:2
+
+79:[78:Ju, 77:Se, 17:Fr, 66:Fr, 40:Fr, 63:So, 35:Fr]
+  Service Area #1: 72:Ju:1
+
+Customer# 72:Ju leaves and his/her total wait time is 8
+
+80:[78:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 77:Se:3
+
+81:[78:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 77:Se:2
+
+New Customer 82:Se
+
+82:[82:Se, 63:So, 78:Ju, 66:Fr, 40:Fr, 35:Fr, 17:Fr]
+  Service Area #1: 77:Se:1
+
+Customer# 77:Se leaves and his/her total wait time is 6
+
+83:[78:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 82:Se:4
+
+84:[78:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 82:Se:3
+
+85:[78:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 82:Se:2
+
+86:[78:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 82:Se:1
+
+Customer# 82:Se leaves and his/her total wait time is 5
+
+87:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 78:Ju:5
+
+New Customer 88:Se
+
+88:[17:Fr, 88:Se, 35:Fr, 66:Fr, 40:Fr, 63:So]
+  Service Area #1: 78:Ju:4
+
+New Customer 89:Ju
+
+89:[89:Ju, 88:Se, 17:Fr, 66:Fr, 40:Fr, 63:So, 35:Fr]
+  Service Area #1: 78:Ju:3
+
+90:[89:Ju, 88:Se, 17:Fr, 66:Fr, 40:Fr, 63:So, 35:Fr]
+  Service Area #1: 78:Ju:2
+
+91:[89:Ju, 88:Se, 17:Fr, 66:Fr, 40:Fr, 63:So, 35:Fr]
+  Service Area #1: 78:Ju:1
+
+Customer# 78:Ju leaves and his/her total wait time is 14
+
+92:[89:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 88:Se:5
+
+93:[89:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 88:Se:4
+
+94:[89:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 88:Se:3
+
+95:[89:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 88:Se:2
+
+96:[89:Ju, 63:So, 17:Fr, 66:Fr, 40:Fr, 35:Fr]
+  Service Area #1: 88:Se:1
+
+Customer# 88:Se leaves and his/her total wait time is 9
+
+97:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 89:Ju:2
+
+98:[17:Fr, 63:So, 35:Fr, 66:Fr, 40:Fr]
+  Service Area #1: 89:Ju:1
+
+Customer# 89:Ju leaves and his/her total wait time is 10
+
+99:[17:Fr, 40:Fr, 35:Fr, 66:Fr]
+  Service Area #1: 63:So:6
+
+100:[17:Fr, 40:Fr, 35:Fr, 66:Fr]
+  Service Area #1: 63:So:5
+
+101:[17:Fr, 40:Fr, 35:Fr, 66:Fr]
+  Service Area #1: 63:So:4
+
+102:[17:Fr, 40:Fr, 35:Fr, 66:Fr]
+  Service Area #1: 63:So:3
+
+103:[17:Fr, 40:Fr, 35:Fr, 66:Fr]
+  Service Area #1: 63:So:2
+
+104:[17:Fr, 40:Fr, 35:Fr, 66:Fr]
+  Service Area #1: 63:So:1
+
+Customer# 63:So leaves and his/her total wait time is 42
+
+105:[35:Fr, 40:Fr, 66:Fr]
+  Service Area #1: 17:Fr:3
+
+106:[35:Fr, 40:Fr, 66:Fr]
+  Service Area #1: 17:Fr:2
+
+107:[35:Fr, 40:Fr, 66:Fr]
+  Service Area #1: 17:Fr:1
+
+Customer# 17:Fr leaves and his/her total wait time is 91
+
+108:[66:Fr, 40:Fr]
+  Service Area #1: 35:Fr:3
+
+109:[66:Fr, 40:Fr]
+  Service Area #1: 35:Fr:2
+
+110:[66:Fr, 40:Fr]
+  Service Area #1: 35:Fr:1
+
+Customer# 35:Fr leaves and his/her total wait time is 76
+
+111:[66:Fr]
+  Service Area #1: 40:Fr:7
+
+New Customer 112:So
+
+112:[66:Fr, 112:So]
+  Service Area #1: 40:Fr:6
+
+113:[66:Fr, 112:So]
+  Service Area #1: 40:Fr:5
+
+114:[66:Fr, 112:So]
+  Service Area #1: 40:Fr:4
+
+115:[66:Fr, 112:So]
+  Service Area #1: 40:Fr:3
+
+116:[66:Fr, 112:So]
+  Service Area #1: 40:Fr:2
+
+117:[66:Fr, 112:So]
+  Service Area #1: 40:Fr:1
+
+Customer# 40:Fr leaves and his/her total wait time is 78
+
+New Customer 118:Ju
+
+118:[66:Fr, 118:Ju]
+  Service Area #1: 112:So:5
+
+119:[66:Fr, 118:Ju]
+  Service Area #1: 112:So:4
+
+120:[66:Fr, 118:Ju]
+  Service Area #1: 112:So:3
+
+121:[66:Fr, 118:Ju]
+  Service Area #1: 112:So:2
+
+New Customer 122:Ju
+
+122:[122:Ju, 118:Ju, 66:Fr]
+  Service Area #1: 112:So:1
+
+Customer# 112:So leaves and his/her total wait time is 11
+
+123:[122:Ju, 66:Fr]
+  Service Area #1: 118:Ju:3
+
+124:[122:Ju, 66:Fr]
+  Service Area #1: 118:Ju:2
+
+125:[122:Ju, 66:Fr]
+  Service Area #1: 118:Ju:1
+
+Customer# 118:Ju leaves and his/her total wait time is 8
+
+126:[66:Fr]
+  Service Area #1: 122:Ju:6
+
+127:[66:Fr]
+  Service Area #1: 122:Ju:5
+
+New Customer 128:So
+
+128:[66:Fr, 128:So]
+  Service Area #1: 122:Ju:4
+
+129:[66:Fr, 128:So]
+  Service Area #1: 122:Ju:3
+
+130:[66:Fr, 128:So]
+  Service Area #1: 122:Ju:2
+
+131:[66:Fr, 128:So]
+  Service Area #1: 122:Ju:1
+
+Customer# 122:Ju leaves and his/her total wait time is 10
+
+132:[66:Fr]
+  Service Area #1: 128:So:4
+
+133:[66:Fr]
+  Service Area #1: 128:So:3
+
+134:[66:Fr]
+  Service Area #1: 128:So:2
+
+135:[66:Fr]
+  Service Area #1: 128:So:1
+
+Customer# 128:So leaves and his/her total wait time is 8
+
+136: []
+  Service Area #1: 66:Fr:3
+
+137: []
+  Service Area #1: 66:Fr:2
+
+138: []
+  Service Area #1: 66:Fr:1
+
+Customer# 66:Fr leaves and his/her total wait time is 73
+
+139: []
+  Service Area #1: -1:-1
+
+140: []
+  Service Area #1: -1:-1
+
+141: []
+  Service Area #1: -1:-1
+
+142: []
+  Service Area #1: -1:-1
+
+143: []
+  Service Area #1: -1:-1
+
+144: []
+  Service Area #1: -1:-1
+
+145: []
+  Service Area #1: -1:-1
+
+146: []
+  Service Area #1: -1:-1
+
+147: []
+  Service Area #1: -1:-1
+
+New Customer 148:Se
+
+148: []
+  Service Area #1: 148:Se:5
+
+149: []
+  Service Area #1: 148:Se:4
+
+New Customer 150:So
+
+150:[150:So]
+  Service Area #1: 148:Se:3
+
+151:[150:So]
+  Service Area #1: 148:Se:2
+
+152:[150:So]
+  Service Area #1: 148:Se:1
+
+Customer# 148:Se leaves and his/her total wait time is 5
+
+153: []
+  Service Area #1: 150:So:7
+
+154: []
+  Service Area #1: 150:So:6
+
+New Customer 155:Se
+
+155:[155:Se]
+  Service Area #1: 150:So:5
+
+156:[155:Se]
+  Service Area #1: 150:So:4
+
+157:[155:Se]
+  Service Area #1: 150:So:3
+
+158:[155:Se]
+  Service Area #1: 150:So:2
+
+New Customer 159:Se
+
+159:[155:Se, 159:Se]
+  Service Area #1: 150:So:1
+
+Customer# 150:So leaves and his/her total wait time is 10
+
+160:[159:Se]
+  Service Area #1: 155:Se:6
+
+161:[159:Se]
+  Service Area #1: 155:Se:5
+
+162:[159:Se]
+  Service Area #1: 155:Se:4
+
+163:[159:Se]
+  Service Area #1: 155:Se:3
+
+New Customer 164:Ju
+
+164:[159:Se, 164:Ju]
+  Service Area #1: 155:Se:2
+
+165:[159:Se, 164:Ju]
+  Service Area #1: 155:Se:1
+
+Customer# 155:Se leaves and his/her total wait time is 11
+
+166:[164:Ju]
+  Service Area #1: 159:Se:5
+
+New Customer 167:Se
+
+167:[164:Ju, 167:Se]
+  Service Area #1: 159:Se:4
+
+New Customer 168:Se
+
+168:[168:Se, 167:Se, 164:Ju]
+  Service Area #1: 159:Se:3
+
+169:[168:Se, 167:Se, 164:Ju]
+  Service Area #1: 159:Se:2
+
+170:[168:Se, 167:Se, 164:Ju]
+  Service Area #1: 159:Se:1
+
+Customer# 159:Se leaves and his/her total wait time is 12
+
+171:[168:Se, 164:Ju]
+  Service Area #1: 167:Se:3
+
+172:[168:Se, 164:Ju]
+  Service Area #1: 167:Se:2
+
+173:[168:Se, 164:Ju]
+  Service Area #1: 167:Se:1
+
+Customer# 167:Se leaves and his/her total wait time is 7
+
+174:[164:Ju]
+  Service Area #1: 168:Se:2
+
+175:[164:Ju]
+  Service Area #1: 168:Se:1
+
+Customer# 168:Se leaves and his/her total wait time is 8
+
+176: []
+  Service Area #1: 164:Ju:7
+
+177: []
+  Service Area #1: 164:Ju:6
+
+New Customer 178:Fr
+
+178:[178:Fr]
+  Service Area #1: 164:Ju:5
+
+179:[178:Fr]
+  Service Area #1: 164:Ju:4
+
+New Customer 180:Ju
+
+180:[178:Fr, 180:Ju]
+  Service Area #1: 164:Ju:3
+
+181:[178:Fr, 180:Ju]
+  Service Area #1: 164:Ju:2
+
+182:[178:Fr, 180:Ju]
+  Service Area #1: 164:Ju:1
+
+Customer# 164:Ju leaves and his/her total wait time is 19
+
+183:[178:Fr]
+  Service Area #1: 180:Ju:7
+
+184:[178:Fr]
+  Service Area #1: 180:Ju:6
+
+185:[178:Fr]
+  Service Area #1: 180:Ju:5
+
+186:[178:Fr]
+  Service Area #1: 180:Ju:4
+
+187:[178:Fr]
+  Service Area #1: 180:Ju:3
+
+New Customer 188:So
+
+188:[178:Fr, 188:So]
+  Service Area #1: 180:Ju:2
+
+189:[178:Fr, 188:So]
+  Service Area #1: 180:Ju:1
+
+Customer# 180:Ju leaves and his/her total wait time is 10
+
+New Customer 190:Se
+
+190:[178:Fr, 190:Se]
+  Service Area #1: 188:So:6
+
+191:[178:Fr, 190:Se]
+  Service Area #1: 188:So:5
+
+192:[178:Fr, 190:Se]
+  Service Area #1: 188:So:4
+
+193:[178:Fr, 190:Se]
+  Service Area #1: 188:So:3
+
+194:[178:Fr, 190:Se]
+  Service Area #1: 188:So:2
+
+195:[178:Fr, 190:Se]
+  Service Area #1: 188:So:1
+
+Customer# 188:So leaves and his/her total wait time is 8
+
+196:[178:Fr]
+  Service Area #1: 190:Se:2
+
+197:[178:Fr]
+  Service Area #1: 190:Se:1
+
+Customer# 190:Se leaves and his/her total wait time is 8
+
+198: []
+  Service Area #1: 178:Fr:3
+
+New Customer 199:Ju
+
+199:[199:Ju]
+  Service Area #1: 178:Fr:2
+
+200:[199:Ju]
+  Service Area #1: 178:Fr:1
+
+Customer# 178:Fr leaves and his/her total wait time is 23
+
+201: []
+  Service Area #1: 199:Ju:4
+
+202: []
+  Service Area #1: 199:Ju:3
+
+203: []
+  Service Area #1: 199:Ju:2
+
+204: []
+  Service Area #1: 199:Ju:1
+
+Customer# 199:Ju leaves and his/her total wait time is 6
+
+205: []
+  Service Area #1: -1:-1
+
+New Customer 206:Se
+
+206: []
+  Service Area #1: 206:Se:5
+
+207: []
+  Service Area #1: 206:Se:4
+
+208: []
+  Service Area #1: 206:Se:3
+
+209: []
+  Service Area #1: 206:Se:2
+
+210: []
+  Service Area #1: 206:Se:1
+
+Customer# 206:Se leaves and his/her total wait time is 5
+
+211: []
+  Service Area #1: -1:-1
+
+212: []
+  Service Area #1: -1:-1
+
+New Customer 213:So
+
+213: []
+  Service Area #1: 213:So:7
+
+214: []
+  Service Area #1: 213:So:6
+
+215: []
+  Service Area #1: 213:So:5
+
+New Customer 216:Ju
+
+216:[216:Ju]
+  Service Area #1: 213:So:4
+
+217:[216:Ju]
+  Service Area #1: 213:So:3
+
+218:[216:Ju]
+  Service Area #1: 213:So:2
+
+219:[216:Ju]
+  Service Area #1: 213:So:1
+
+Customer# 213:So leaves and his/her total wait time is 7
+
+220: []
+  Service Area #1: 216:Ju:7
+
+New Customer 221:So
+
+221:[221:So]
+  Service Area #1: 216:Ju:6
+
+222:[221:So]
+  Service Area #1: 216:Ju:5
+
+223:[221:So]
+  Service Area #1: 216:Ju:4
+
+224:[221:So]
+  Service Area #1: 216:Ju:3
+
+225:[221:So]
+  Service Area #1: 216:Ju:2
+
+226:[221:So]
+  Service Area #1: 216:Ju:1
+
+Customer# 216:Ju leaves and his/her total wait time is 11
+
+227: []
+  Service Area #1: 221:So:3
+
+New Customer 228:Fr
+
+228:[228:Fr]
+  Service Area #1: 221:So:2
+
+New Customer 229:Fr
+
+229:[228:Fr, 229:Fr]
+  Service Area #1: 221:So:1
+
+Customer# 221:So leaves and his/her total wait time is 9
+
+230:[229:Fr]
+  Service Area #1: 228:Fr:4
+
+231:[229:Fr]
+  Service Area #1: 228:Fr:3
+
+232:[229:Fr]
+  Service Area #1: 228:Fr:2
+
+233:[229:Fr]
+  Service Area #1: 228:Fr:1
+
+Customer# 228:Fr leaves and his/her total wait time is 6
+
+234: []
+  Service Area #1: 229:Fr:6
+
+235: []
+  Service Area #1: 229:Fr:5
+
+236: []
+  Service Area #1: 229:Fr:4
+
+237: []
+  Service Area #1: 229:Fr:3
+
+238: []
+  Service Area #1: 229:Fr:2
+
+New Customer 239:Se
+
+239:[239:Se]
+  Service Area #1: 229:Fr:1
+
+Customer# 229:Fr leaves and his/her total wait time is 11
+
+240: []
+  Service Area #1: 239:Se:3
+
+241: []
+  Service Area #1: 239:Se:2
+
+242: []
+  Service Area #1: 239:Se:1
+
+Customer# 239:Se leaves and his/her total wait time is 4
+
+243: []
+  Service Area #1: -1:-1
+
+New Customer 244:Se
+
+244: []
+  Service Area #1: 244:Se:7
+
+245: []
+  Service Area #1: 244:Se:6
+
+246: []
+  Service Area #1: 244:Se:5
+
+247: []
+  Service Area #1: 244:Se:4
+
+248: []
+  Service Area #1: 244:Se:3
+
+249: []
+  Service Area #1: 244:Se:2
+
+250: []
+  Service Area #1: 244:Se:1
+
+Customer# 244:Se leaves and his/her total wait time is 7
+
+251: []
+  Service Area #1: -1:-1
+
+252: []
+  Service Area #1: -1:-1
+
+253: []
+  Service Area #1: -1:-1
+
+New Customer 254:Ju
+
+254: []
+  Service Area #1: 254:Ju:6
+
+255: []
+  Service Area #1: 254:Ju:5
+
+256: []
+  Service Area #1: 254:Ju:4
+
+257: []
+  Service Area #1: 254:Ju:3
+
+258: []
+  Service Area #1: 254:Ju:2
+
+259: []
+  Service Area #1: 254:Ju:1
+
+Customer# 254:Ju leaves and his/her total wait time is 6
+
+260: []
+  Service Area #1: -1:-1
+
+261: []
+  Service Area #1: -1:-1
+
+262: []
+  Service Area #1: -1:-1
+
+263: []
+  Service Area #1: -1:-1
+
+264: []
+  Service Area #1: -1:-1
+
+265: []
+  Service Area #1: -1:-1
+
+266: []
+  Service Area #1: -1:-1
+
+267: []
+  Service Area #1: -1:-1
+
+268: []
+  Service Area #1: -1:-1
+
+New Customer 269:Ju
+
+269: []
+  Service Area #1: 269:Ju:5
+
+270: []
+  Service Area #1: 269:Ju:4
+
+271: []
+  Service Area #1: 269:Ju:3
+
+272: []
+  Service Area #1: 269:Ju:2
+
+273: []
+  Service Area #1: 269:Ju:1
+
+Customer# 269:Ju leaves and his/her total wait time is 5
+
+274: []
+  Service Area #1: -1:-1
+
+275: []
+  Service Area #1: -1:-1
+
+276: []
+  Service Area #1: -1:-1
+
+277: []
+  Service Area #1: -1:-1
+
+New Customer 278:Se
+
+278: []
+  Service Area #1: 278:Se:6
+
+New Customer 279:Fr
+
+279:[279:Fr]
+  Service Area #1: 278:Se:5
+
+280:[279:Fr]
+  Service Area #1: 278:Se:4
+
+281:[279:Fr]
+  Service Area #1: 278:Se:3
+
+282:[279:Fr]
+  Service Area #1: 278:Se:2
+
+283:[279:Fr]
+  Service Area #1: 278:Se:1
+
+Customer# 278:Se leaves and his/her total wait time is 6
+
+284: []
+  Service Area #1: 279:Fr:5
+
+285: []
+  Service Area #1: 279:Fr:4
+
+286: []
+  Service Area #1: 279:Fr:3
+
+New Customer 287:Fr
+
+287:[287:Fr]
+  Service Area #1: 279:Fr:2
+
+288:[287:Fr]
+  Service Area #1: 279:Fr:1
+
+Customer# 279:Fr leaves and his/her total wait time is 10
+
+289: []
+  Service Area #1: 287:Fr:3
+
+New Customer 290:Ju
+
+290:[290:Ju]
+  Service Area #1: 287:Fr:2
+
+291:[290:Ju]
+  Service Area #1: 287:Fr:1
+
+Customer# 287:Fr leaves and his/her total wait time is 5
+
+292: []
+  Service Area #1: 290:Ju:5
+
+293: []
+  Service Area #1: 290:Ju:4
+
+294: []
+  Service Area #1: 290:Ju:3
+
+New Customer 295:Se
+
+295:[295:Se]
+  Service Area #1: 290:Ju:2
+
+296:[295:Se]
+  Service Area #1: 290:Ju:1
+
+Customer# 290:Ju leaves and his/her total wait time is 7
+
+297: []
+  Service Area #1: 295:Se:7
+
+298: []
+  Service Area #1: 295:Se:6
+
+299: []
+  Service Area #1: 295:Se:5
+
+300: []
+  Service Area #1: 295:Se:4
+
+301: []
+  Service Area #1: 295:Se:3
+
+302: []
+  Service Area #1: 295:Se:2
+
+303: []
+  Service Area #1: 295:Se:1
+
+Customer# 295:Se leaves and his/her total wait time is 9
+
+304: []
+  Service Area #1: -1:-1
+
+305: []
+  Service Area #1: -1:-1
+
+306: []
+  Service Area #1: -1:-1
+
+307: []
+  Service Area #1: -1:-1
+
+308: []
+  Service Area #1: -1:-1
+
+New Customer 309:So
+
+309: []
+  Service Area #1: 309:So:7
+
+310: []
+  Service Area #1: 309:So:6
+
+311: []
+  Service Area #1: 309:So:5
+
+312: []
+  Service Area #1: 309:So:4
+
+313: []
+  Service Area #1: 309:So:3
+
+314: []
+  Service Area #1: 309:So:2
+
+315: []
+  Service Area #1: 309:So:1
+
+Customer# 309:So leaves and his/her total wait time is 7
+
+New Customer 316:Se
+
+316: []
+  Service Area #1: 316:Se:4
+
+317: []
+  Service Area #1: 316:Se:3
+
+318: []
+  Service Area #1: 316:Se:2
+
+319: []
+  Service Area #1: 316:Se:1
+
+Customer# 316:Se leaves and his/her total wait time is 4
+
+320: []
+  Service Area #1: -1:-1
+
+321: []
+  Service Area #1: -1:-1
+
+322: []
+  Service Area #1: -1:-1
+
+New Customer 323:So
+
+323: []
+  Service Area #1: 323:So:6
+
+324: []
+  Service Area #1: 323:So:5
+
+New Customer 325:Fr
+
+325:[325:Fr]
+  Service Area #1: 323:So:4
+
+New Customer 326:Fr
+
+326:[325:Fr, 326:Fr]
+  Service Area #1: 323:So:3
+
+327:[325:Fr, 326:Fr]
+  Service Area #1: 323:So:2
+
+328:[325:Fr, 326:Fr]
+  Service Area #1: 323:So:1
+
+Customer# 323:So leaves and his/her total wait time is 6
+
+329:[326:Fr]
+  Service Area #1: 325:Fr:4
+
+330:[326:Fr]
+  Service Area #1: 325:Fr:3
+
+New Customer 331:So
+
+331:[326:Fr, 331:So]
+  Service Area #1: 325:Fr:2
+
+New Customer 332:Ju
+
+332:[332:Ju, 331:So, 326:Fr]
+  Service Area #1: 325:Fr:1
+
+Customer# 325:Fr leaves and his/her total wait time is 8
+
+New Customer 333:Fr
+
+333:[326:Fr, 331:So, 333:Fr]
+  Service Area #1: 332:Ju:3
+
+334:[326:Fr, 331:So, 333:Fr]
+  Service Area #1: 332:Ju:2
+
+335:[326:Fr, 331:So, 333:Fr]
+  Service Area #1: 332:Ju:1
+
+Customer# 332:Ju leaves and his/her total wait time is 4
+
+New Customer 336:Ju
+
+336:[336:Ju, 333:Fr, 326:Fr]
+  Service Area #1: 331:So:2
+
+New Customer 337:Se
+
+337:[337:Se, 333:Fr, 326:Fr, 336:Ju]
+  Service Area #1: 331:So:1
+
+Customer# 331:So leaves and his/her total wait time is 7
+
+338:[336:Ju, 333:Fr, 326:Fr]
+  Service Area #1: 337:Se:5
+
+New Customer 339:So
+
+339:[336:Ju, 333:Fr, 326:Fr, 339:So]
+  Service Area #1: 337:Se:4
+
+340:[336:Ju, 333:Fr, 326:Fr, 339:So]
+  Service Area #1: 337:Se:3
+
+New Customer 341:Fr
+
+341:[336:Ju, 333:Fr, 326:Fr, 339:So, 341:Fr]
+  Service Area #1: 337:Se:2
+
+342:[336:Ju, 333:Fr, 326:Fr, 339:So, 341:Fr]
+  Service Area #1: 337:Se:1
+
+Customer# 337:Se leaves and his/her total wait time is 6
+
+New Customer 343:Fr
+
+343:[339:So, 333:Fr, 326:Fr, 341:Fr, 343:Fr]
+  Service Area #1: 336:Ju:6
+
+New Customer 344:Ju
+
+344:[339:So, 344:Ju, 326:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 336:Ju:5
+
+345:[339:So, 344:Ju, 326:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 336:Ju:4
+
+346:[339:So, 344:Ju, 326:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 336:Ju:3
+
+New Customer 347:So
+
+347:[339:So, 344:Ju, 347:So, 341:Fr, 343:Fr, 333:Fr, 326:Fr]
+  Service Area #1: 336:Ju:2
+
+348:[339:So, 344:Ju, 347:So, 341:Fr, 343:Fr, 333:Fr, 326:Fr]
+  Service Area #1: 336:Ju:1
+
+Customer# 336:Ju leaves and his/her total wait time is 13
+
+349:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 344:Ju:4
+
+350:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 344:Ju:3
+
+New Customer 351:Ju
+
+351:[351:Ju, 326:Fr, 339:So, 341:Fr, 343:Fr, 333:Fr, 347:So]
+  Service Area #1: 344:Ju:2
+
+352:[351:Ju, 326:Fr, 339:So, 341:Fr, 343:Fr, 333:Fr, 347:So]
+  Service Area #1: 344:Ju:1
+
+Customer# 344:Ju leaves and his/her total wait time is 9
+
+353:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 351:Ju:5
+
+New Customer 354:Fr
+
+354:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr, 354:Fr]
+  Service Area #1: 351:Ju:4
+
+355:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr, 354:Fr]
+  Service Area #1: 351:Ju:3
+
+356:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr, 354:Fr]
+  Service Area #1: 351:Ju:2
+
+357:[339:So, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr, 354:Fr]
+  Service Area #1: 351:Ju:1
+
+Customer# 351:Ju leaves and his/her total wait time is 7
+
+358:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 339:So:6
+
+359:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 339:So:5
+
+360:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 339:So:4
+
+361:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 339:So:3
+
+362:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 339:So:2
+
+New Customer 363:Ju
+
+363:[363:Ju, 326:Fr, 347:So, 341:Fr, 343:Fr, 333:Fr, 354:Fr]
+  Service Area #1: 339:So:1
+
+Customer# 339:So leaves and his/her total wait time is 25
+
+364:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 363:Ju:2
+
+365:[347:So, 326:Fr, 354:Fr, 341:Fr, 343:Fr, 333:Fr]
+  Service Area #1: 363:Ju:1
+
+Customer# 363:Ju leaves and his/her total wait time is 3
+
+366:[333:Fr, 326:Fr, 354:Fr, 341:Fr, 343:Fr]
+  Service Area #1: 347:So:4
+
+New Customer 367:So
+
+367:[333:Fr, 367:So, 354:Fr, 341:Fr, 343:Fr, 326:Fr]
+  Service Area #1: 347:So:3
+
+368:[333:Fr, 367:So, 354:Fr, 341:Fr, 343:Fr, 326:Fr]
+  Service Area #1: 347:So:2
+
+369:[333:Fr, 367:So, 354:Fr, 341:Fr, 343:Fr, 326:Fr]
+  Service Area #1: 347:So:1
+
+Customer# 347:So leaves and his/her total wait time is 23
+
+370:[333:Fr, 326:Fr, 354:Fr, 341:Fr, 343:Fr]
+  Service Area #1: 367:So:3
+
+371:[333:Fr, 326:Fr, 354:Fr, 341:Fr, 343:Fr]
+  Service Area #1: 367:So:2
+
+372:[333:Fr, 326:Fr, 354:Fr, 341:Fr, 343:Fr]
+  Service Area #1: 367:So:1
+
+Customer# 367:So leaves and his/her total wait time is 6
+
+New Customer 373:Fr
+
+373:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 326:Fr:5
+
+374:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 326:Fr:4
+
+375:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 326:Fr:3
+
+New Customer 376:So
+
+376:[333:Fr, 376:So, 354:Fr, 341:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 326:Fr:2
+
+377:[333:Fr, 376:So, 354:Fr, 341:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 326:Fr:1
+
+Customer# 326:Fr leaves and his/her total wait time is 52
+
+378:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 376:So:4
+
+379:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 376:So:3
+
+380:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 376:So:2
+
+New Customer 381:Se
+
+381:[333:Fr, 381:Se, 354:Fr, 341:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 376:So:1
+
+Customer# 376:So leaves and his/her total wait time is 6
+
+382:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 381:Se:2
+
+383:[333:Fr, 343:Fr, 354:Fr, 341:Fr, 373:Fr]
+  Service Area #1: 381:Se:1
+
+Customer# 381:Se leaves and his/her total wait time is 3
+
+New Customer 384:Se
+
+384:[341:Fr, 384:Se, 354:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 333:Fr:2
+
+New Customer 385:Ju
+
+385:[341:Fr, 384:Se, 354:Fr, 373:Fr, 343:Fr, 385:Ju]
+  Service Area #1: 333:Fr:1
+
+Customer# 333:Fr leaves and his/her total wait time is 53
+
+386:[341:Fr, 385:Ju, 354:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 384:Se:4
+
+387:[341:Fr, 385:Ju, 354:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 384:Se:3
+
+388:[341:Fr, 385:Ju, 354:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 384:Se:2
+
+389:[341:Fr, 385:Ju, 354:Fr, 373:Fr, 343:Fr]
+  Service Area #1: 384:Se:1
+
+Customer# 384:Se leaves and his/her total wait time is 6
+
+390:[341:Fr, 343:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 385:Ju:7
+
+391:[341:Fr, 343:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 385:Ju:6
+
+392:[341:Fr, 343:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 385:Ju:5
+
+393:[341:Fr, 343:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 385:Ju:4
+
+394:[341:Fr, 343:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 385:Ju:3
+
+New Customer 395:Fr
+
+395:[341:Fr, 343:Fr, 354:Fr, 373:Fr, 395:Fr]
+  Service Area #1: 385:Ju:2
+
+396:[341:Fr, 343:Fr, 354:Fr, 373:Fr, 395:Fr]
+  Service Area #1: 385:Ju:1
+
+Customer# 385:Ju leaves and his/her total wait time is 12
+
+New Customer 397:Fr
+
+397:[354:Fr, 343:Fr, 395:Fr, 373:Fr, 397:Fr]
+  Service Area #1: 341:Fr:4
+
+398:[354:Fr, 343:Fr, 395:Fr, 373:Fr, 397:Fr]
+  Service Area #1: 341:Fr:3
+
+New Customer 399:Fr
+
+399:[354:Fr, 343:Fr, 395:Fr, 373:Fr, 397:Fr, 399:Fr]
+  Service Area #1: 341:Fr:2
+
+400:[354:Fr, 343:Fr, 395:Fr, 373:Fr, 397:Fr, 399:Fr]
+  Service Area #1: 341:Fr:1
+
+Customer# 341:Fr leaves and his/her total wait time is 60
+
+401:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr]
+  Service Area #1: 343:Fr:7
+
+402:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr]
+  Service Area #1: 343:Fr:6
+
+403:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr]
+  Service Area #1: 343:Fr:5
+
+New Customer 404:So
+
+404:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr]
+  Service Area #1: 343:Fr:4
+
+New Customer 405:Fr
+
+405:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 343:Fr:3
+
+New Customer 406:Se
+
+406:[406:Se, 404:So, 354:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 343:Fr:2
+
+407:[406:Se, 404:So, 354:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 343:Fr:1
+
+Customer# 343:Fr leaves and his/her total wait time is 65
+
+408:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 406:Se:6
+
+409:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 406:Se:5
+
+410:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 406:Se:4
+
+411:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 406:Se:3
+
+412:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 406:Se:2
+
+413:[354:Fr, 404:So, 395:Fr, 373:Fr, 399:Fr, 397:Fr, 405:Fr]
+  Service Area #1: 406:Se:1
+
+Customer# 406:Se leaves and his/her total wait time is 8
+
+414:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr]
+  Service Area #1: 404:So:6
+
+New Customer 415:Ju
+
+415:[415:Ju, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 404:So:5
+
+New Customer 416:So
+
+416:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 404:So:4
+
+New Customer 417:Se
+
+417:[417:Se, 397:Fr, 416:So, 415:Ju, 399:Fr, 405:Fr, 395:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 404:So:3
+
+418:[417:Se, 397:Fr, 416:So, 415:Ju, 399:Fr, 405:Fr, 395:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 404:So:2
+
+419:[417:Se, 397:Fr, 416:So, 415:Ju, 399:Fr, 405:Fr, 395:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 404:So:1
+
+Customer# 404:So leaves and his/her total wait time is 16
+
+420:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 417:Se:6
+
+421:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 417:Se:5
+
+422:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 417:Se:4
+
+423:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 417:Se:3
+
+New Customer 424:Se
+
+424:[424:Se, 397:Fr, 416:So, 415:Ju, 399:Fr, 405:Fr, 395:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 417:Se:2
+
+425:[424:Se, 397:Fr, 416:So, 415:Ju, 399:Fr, 405:Fr, 395:Fr, 354:Fr, 373:Fr]
+  Service Area #1: 417:Se:1
+
+Customer# 417:Se leaves and his/her total wait time is 9
+
+426:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 424:Se:4
+
+427:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 424:Se:3
+
+428:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 424:Se:2
+
+429:[415:Ju, 397:Fr, 416:So, 373:Fr, 399:Fr, 405:Fr, 395:Fr, 354:Fr]
+  Service Area #1: 424:Se:1
+
+Customer# 424:Se leaves and his/her total wait time is 6
+
+430:[416:So, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 415:Ju:3
+
+431:[416:So, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 415:Ju:2
+
+432:[416:So, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 415:Ju:1
+
+Customer# 415:Ju leaves and his/her total wait time is 18
+
+433:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr]
+  Service Area #1: 416:So:5
+
+New Customer 434:Se
+
+434:[434:Se, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 416:So:4
+
+435:[434:Se, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 416:So:3
+
+436:[434:Se, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 416:So:2
+
+437:[434:Se, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 416:So:1
+
+Customer# 416:So leaves and his/her total wait time is 22
+
+New Customer 438:Fr
+
+438:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 434:Se:4
+
+439:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 434:Se:3
+
+New Customer 440:So
+
+440:[440:So, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr, 395:Fr]
+  Service Area #1: 434:Se:2
+
+441:[440:So, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr, 395:Fr]
+  Service Area #1: 434:Se:1
+
+Customer# 434:Se leaves and his/her total wait time is 8
+
+442:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 440:So:5
+
+443:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 440:So:4
+
+444:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 440:So:3
+
+New Customer 445:Ju
+
+445:[445:Ju, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr, 395:Fr]
+  Service Area #1: 440:So:2
+
+446:[445:Ju, 397:Fr, 354:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr, 395:Fr]
+  Service Area #1: 440:So:1
+
+Customer# 440:So leaves and his/her total wait time is 7
+
+447:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 445:Ju:2
+
+448:[354:Fr, 397:Fr, 395:Fr, 373:Fr, 399:Fr, 405:Fr, 438:Fr]
+  Service Area #1: 445:Ju:1
+
+Customer# 445:Ju leaves and his/her total wait time is 4
+
+449:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr]
+  Service Area #1: 354:Fr:4
+
+450:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr]
+  Service Area #1: 354:Fr:3
+
+New Customer 451:Se
+
+451:[451:Se, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 354:Fr:2
+
+452:[451:Se, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 395:Fr]
+  Service Area #1: 354:Fr:1
+
+Customer# 354:Fr leaves and his/her total wait time is 99
+
+453:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr]
+  Service Area #1: 451:Se:4
+
+454:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr]
+  Service Area #1: 451:Se:3
+
+New Customer 455:Fr
+
+455:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr]
+  Service Area #1: 451:Se:2
+
+New Customer 456:Se
+
+456:[456:Se, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr]
+  Service Area #1: 451:Se:1
+
+Customer# 451:Se leaves and his/her total wait time is 6
+
+457:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr]
+  Service Area #1: 456:Se:5
+
+New Customer 458:Se
+
+458:[458:Se, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr]
+  Service Area #1: 456:Se:4
+
+New Customer 459:So
+
+459:[458:Se, 397:Fr, 373:Fr, 459:So, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 438:Fr]
+  Service Area #1: 456:Se:3
+
+460:[458:Se, 397:Fr, 373:Fr, 459:So, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 438:Fr]
+  Service Area #1: 456:Se:2
+
+461:[458:Se, 397:Fr, 373:Fr, 459:So, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 438:Fr]
+  Service Area #1: 456:Se:1
+
+Customer# 456:Se leaves and his/her total wait time is 6
+
+462:[459:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr]
+  Service Area #1: 458:Se:6
+
+463:[459:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr]
+  Service Area #1: 458:Se:5
+
+464:[459:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr]
+  Service Area #1: 458:Se:4
+
+New Customer 465:So
+
+465:[459:So, 397:Fr, 373:Fr, 465:So, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 438:Fr]
+  Service Area #1: 458:Se:3
+
+466:[459:So, 397:Fr, 373:Fr, 465:So, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 438:Fr]
+  Service Area #1: 458:Se:2
+
+New Customer 467:Fr
+
+467:[459:So, 397:Fr, 373:Fr, 465:So, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 438:Fr, 467:Fr]
+  Service Area #1: 458:Se:1
+
+Customer# 458:Se leaves and his/her total wait time is 10
+
+468:[465:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 467:Fr]
+  Service Area #1: 459:So:6
+
+469:[465:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 467:Fr]
+  Service Area #1: 459:So:5
+
+470:[465:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 467:Fr]
+  Service Area #1: 459:So:4
+
+471:[465:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 467:Fr]
+  Service Area #1: 459:So:3
+
+472:[465:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 467:Fr]
+  Service Area #1: 459:So:2
+
+473:[465:So, 397:Fr, 373:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 395:Fr, 467:Fr]
+  Service Area #1: 459:So:1
+
+Customer# 459:So leaves and his/her total wait time is 15
+
+474:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 467:Fr]
+  Service Area #1: 465:So:5
+
+475:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 467:Fr]
+  Service Area #1: 465:So:4
+
+476:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 467:Fr]
+  Service Area #1: 465:So:3
+
+477:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 467:Fr]
+  Service Area #1: 465:So:2
+
+478:[373:Fr, 397:Fr, 395:Fr, 438:Fr, 399:Fr, 405:Fr, 455:Fr, 467:Fr]
+  Service Area #1: 465:So:1
+
+Customer# 465:So leaves and his/her total wait time is 14
+
+479:[395:Fr, 397:Fr, 455:Fr, 438:Fr, 399:Fr, 405:Fr, 467:Fr]
+  Service Area #1: 373:Fr:4
+
+New Customer 480:Fr
+
+480:[395:Fr, 397:Fr, 455:Fr, 438:Fr, 399:Fr, 405:Fr, 467:Fr, 480:Fr]
+  Service Area #1: 373:Fr:3
+
+New Customer 481:Se
+
+481:[481:Se, 397:Fr, 455:Fr, 395:Fr, 399:Fr, 405:Fr, 467:Fr, 480:Fr, 438:Fr]
+  Service Area #1: 373:Fr:2
+
+482:[481:Se, 397:Fr, 455:Fr, 395:Fr, 399:Fr, 405:Fr, 467:Fr, 480:Fr, 438:Fr]
+  Service Area #1: 373:Fr:1
+
+Customer# 373:Fr leaves and his/her total wait time is 110
+
+483:[395:Fr, 397:Fr, 455:Fr, 438:Fr, 399:Fr, 405:Fr, 467:Fr, 480:Fr]
+  Service Area #1: 481:Se:2
+
+484:[395:Fr, 397:Fr, 455:Fr, 438:Fr, 399:Fr, 405:Fr, 467:Fr, 480:Fr]
+  Service Area #1: 481:Se:1
+
+Customer# 481:Se leaves and his/her total wait time is 4
+
+485:[438:Fr, 397:Fr, 455:Fr, 480:Fr, 399:Fr, 405:Fr, 467:Fr]
+  Service Area #1: 395:Fr:3
+
+486:[438:Fr, 397:Fr, 455:Fr, 480:Fr, 399:Fr, 405:Fr, 467:Fr]
+  Service Area #1: 395:Fr:2
+
+487:[438:Fr, 397:Fr, 455:Fr, 480:Fr, 399:Fr, 405:Fr, 467:Fr]
+  Service Area #1: 395:Fr:1
+
+Customer# 395:Fr leaves and his/her total wait time is 93
+
+New Customer 488:Ju
+
+488:[488:Ju, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 455:Fr]
+  Service Area #1: 397:Fr:6
+
+489:[488:Ju, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 455:Fr]
+  Service Area #1: 397:Fr:5
+
+490:[488:Ju, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 455:Fr]
+  Service Area #1: 397:Fr:4
+
+New Customer 491:Ju
+
+491:[488:Ju, 399:Fr, 491:Ju, 480:Fr, 467:Fr, 405:Fr, 455:Fr, 438:Fr]
+  Service Area #1: 397:Fr:3
+
+492:[488:Ju, 399:Fr, 491:Ju, 480:Fr, 467:Fr, 405:Fr, 455:Fr, 438:Fr]
+  Service Area #1: 397:Fr:2
+
+493:[488:Ju, 399:Fr, 491:Ju, 480:Fr, 467:Fr, 405:Fr, 455:Fr, 438:Fr]
+  Service Area #1: 397:Fr:1
+
+Customer# 397:Fr leaves and his/her total wait time is 97
+
+New Customer 494:Ju
+
+494:[491:Ju, 399:Fr, 494:Ju, 480:Fr, 467:Fr, 405:Fr, 455:Fr, 438:Fr]
+  Service Area #1: 488:Ju:6
+
+New Customer 495:Ju
+
+495:[491:Ju, 399:Fr, 494:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 488:Ju:5
+
+496:[491:Ju, 399:Fr, 494:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 488:Ju:4
+
+497:[491:Ju, 399:Fr, 494:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 488:Ju:3
+
+498:[491:Ju, 399:Fr, 494:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 488:Ju:2
+
+New Customer 499:Ju
+
+499:[491:Ju, 399:Fr, 494:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 499:Ju]
+  Service Area #1: 488:Ju:1
+
+Customer# 488:Ju leaves and his/her total wait time is 12
+
+New Customer 500:Se
+
+500:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:7
+
+501:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:6
+
+502:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:5
+
+503:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:4
+
+504:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:3
+
+505:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:2
+
+506:[500:Se, 399:Fr, 499:Ju, 494:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 495:Ju]
+  Service Area #1: 491:Ju:1
+
+Customer# 491:Ju leaves and his/her total wait time is 16
+
+507:[494:Ju, 399:Fr, 499:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 500:Se:5
+
+508:[494:Ju, 399:Fr, 499:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 500:Se:4
+
+509:[494:Ju, 399:Fr, 499:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr]
+  Service Area #1: 500:Se:3
+
+New Customer 510:Ju
+
+510:[494:Ju, 399:Fr, 499:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 510:Ju]
+  Service Area #1: 500:Se:2
+
+New Customer 511:Fr
+
+511:[494:Ju, 399:Fr, 499:Ju, 495:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 510:Ju, 511:Fr]
+  Service Area #1: 500:Se:1
+
+Customer# 500:Se leaves and his/her total wait time is 12
+
+512:[495:Ju, 399:Fr, 499:Ju, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 511:Fr]
+  Service Area #1: 494:Ju:5
+
+513:[495:Ju, 399:Fr, 499:Ju, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 511:Fr]
+  Service Area #1: 494:Ju:4
+
+514:[495:Ju, 399:Fr, 499:Ju, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 511:Fr]
+  Service Area #1: 494:Ju:3
+
+515:[495:Ju, 399:Fr, 499:Ju, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 511:Fr]
+  Service Area #1: 494:Ju:2
+
+516:[495:Ju, 399:Fr, 499:Ju, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 438:Fr, 480:Fr, 511:Fr]
+  Service Area #1: 494:Ju:1
+
+Customer# 494:Ju leaves and his/her total wait time is 23
+
+New Customer 517:Se
+
+517:[517:Se, 399:Fr, 438:Fr, 499:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 510:Ju]
+  Service Area #1: 495:Ju:5
+
+518:[517:Se, 399:Fr, 438:Fr, 499:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 510:Ju]
+  Service Area #1: 495:Ju:4
+
+519:[517:Se, 399:Fr, 438:Fr, 499:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 510:Ju]
+  Service Area #1: 495:Ju:3
+
+520:[517:Se, 399:Fr, 438:Fr, 499:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 510:Ju]
+  Service Area #1: 495:Ju:2
+
+521:[517:Se, 399:Fr, 438:Fr, 499:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 510:Ju]
+  Service Area #1: 495:Ju:1
+
+Customer# 495:Ju leaves and his/her total wait time is 27
+
+522:[499:Ju, 399:Fr, 438:Fr, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 517:Se:5
+
+523:[499:Ju, 399:Fr, 438:Fr, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 517:Se:4
+
+New Customer 524:So
+
+524:[499:Ju, 399:Fr, 438:Fr, 510:Ju, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 524:So]
+  Service Area #1: 517:Se:3
+
+New Customer 525:Ju
+
+525:[499:Ju, 525:Ju, 438:Fr, 510:Ju, 399:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 524:So, 467:Fr]
+  Service Area #1: 517:Se:2
+
+526:[499:Ju, 525:Ju, 438:Fr, 510:Ju, 399:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 524:So, 467:Fr]
+  Service Area #1: 517:Se:1
+
+Customer# 517:Se leaves and his/her total wait time is 10
+
+527:[510:Ju, 525:Ju, 438:Fr, 524:So, 399:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 499:Ju:5
+
+528:[510:Ju, 525:Ju, 438:Fr, 524:So, 399:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 499:Ju:4
+
+529:[510:Ju, 525:Ju, 438:Fr, 524:So, 399:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 499:Ju:3
+
+530:[510:Ju, 525:Ju, 438:Fr, 524:So, 399:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 499:Ju:2
+
+New Customer 531:Ju
+
+531:[510:Ju, 525:Ju, 438:Fr, 524:So, 531:Ju, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr, 399:Fr]
+  Service Area #1: 499:Ju:1
+
+Customer# 499:Ju leaves and his/her total wait time is 33
+
+532:[524:So, 525:Ju, 438:Fr, 399:Fr, 531:Ju, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 510:Ju:5
+
+533:[524:So, 525:Ju, 438:Fr, 399:Fr, 531:Ju, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 510:Ju:4
+
+534:[524:So, 525:Ju, 438:Fr, 399:Fr, 531:Ju, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 510:Ju:3
+
+535:[524:So, 525:Ju, 438:Fr, 399:Fr, 531:Ju, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 510:Ju:2
+
+536:[524:So, 525:Ju, 438:Fr, 399:Fr, 531:Ju, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 467:Fr]
+  Service Area #1: 510:Ju:1
+
+Customer# 510:Ju leaves and his/her total wait time is 27
+
+537:[524:So, 531:Ju, 438:Fr, 399:Fr, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 525:Ju:5
+
+New Customer 538:So
+
+538:[524:So, 531:Ju, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 399:Fr]
+  Service Area #1: 525:Ju:4
+
+539:[524:So, 531:Ju, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 399:Fr]
+  Service Area #1: 525:Ju:3
+
+540:[524:So, 531:Ju, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 399:Fr]
+  Service Area #1: 525:Ju:2
+
+541:[524:So, 531:Ju, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 399:Fr]
+  Service Area #1: 525:Ju:1
+
+Customer# 525:Ju leaves and his/her total wait time is 17
+
+542:[524:So, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 531:Ju:2
+
+543:[524:So, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 531:Ju:1
+
+Customer# 531:Ju leaves and his/her total wait time is 13
+
+New Customer 544:Ju
+
+544:[544:Ju, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 524:So:5
+
+New Customer 545:So
+
+545:[544:Ju, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 545:So]
+  Service Area #1: 524:So:4
+
+546:[544:Ju, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 545:So]
+  Service Area #1: 524:So:3
+
+547:[544:Ju, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 545:So]
+  Service Area #1: 524:So:2
+
+548:[544:Ju, 399:Fr, 438:Fr, 538:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr, 545:So]
+  Service Area #1: 524:So:1
+
+Customer# 524:So leaves and his/her total wait time is 25
+
+549:[538:So, 399:Fr, 438:Fr, 545:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 544:Ju:3
+
+550:[538:So, 399:Fr, 438:Fr, 545:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 544:Ju:2
+
+551:[538:So, 399:Fr, 438:Fr, 545:So, 467:Fr, 405:Fr, 455:Fr, 511:Fr, 480:Fr]
+  Service Area #1: 544:Ju:1
+
+Customer# 544:Ju leaves and his/her total wait time is 8
+
+552:[545:So, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 455:Fr, 511:Fr]
+  Service Area #1: 538:So:2
+
+553:[545:So, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 455:Fr, 511:Fr]
+  Service Area #1: 538:So:1
+
+Customer# 538:So leaves and his/her total wait time is 16
+
+554:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 545:So:6
+
+555:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 545:So:5
+
+556:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 545:So:4
+
+557:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 545:So:3
+
+New Customer 558:Ju
+
+558:[558:Ju, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 545:So:2
+
+559:[558:Ju, 399:Fr, 438:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 545:So:1
+
+Customer# 545:So leaves and his/her total wait time is 15
+
+560:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 558:Ju:4
+
+561:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 558:Ju:3
+
+562:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 558:Ju:2
+
+563:[438:Fr, 399:Fr, 455:Fr, 480:Fr, 467:Fr, 405:Fr, 511:Fr]
+  Service Area #1: 558:Ju:1
+
+Customer# 558:Ju leaves and his/her total wait time is 6
+
+New Customer 564:Fr
+
+564:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:7
+
+565:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:6
+
+566:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:5
+
+567:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:4
+
+568:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:3
+
+569:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:2
+
+570:[438:Fr, 405:Fr, 455:Fr, 480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 399:Fr:1
+
+Customer# 399:Fr leaves and his/her total wait time is 172
+
+571:[438:Fr, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 405:Fr:2
+
+New Customer 572:Ju
+
+572:[572:Ju, 467:Fr, 438:Fr, 480:Fr, 564:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 405:Fr:1
+
+Customer# 405:Fr leaves and his/her total wait time is 168
+
+573:[438:Fr, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 572:Ju:5
+
+574:[438:Fr, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 572:Ju:4
+
+575:[438:Fr, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 572:Ju:3
+
+576:[438:Fr, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 572:Ju:2
+
+577:[438:Fr, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 572:Ju:1
+
+Customer# 572:Ju leaves and his/her total wait time is 6
+
+New Customer 578:Ju
+
+578:[455:Fr, 578:Ju, 511:Fr, 480:Fr, 564:Fr, 467:Fr]
+  Service Area #1: 438:Fr:4
+
+579:[455:Fr, 578:Ju, 511:Fr, 480:Fr, 564:Fr, 467:Fr]
+  Service Area #1: 438:Fr:3
+
+New Customer 580:Ju
+
+580:[580:Ju, 578:Ju, 455:Fr, 480:Fr, 564:Fr, 467:Fr, 511:Fr]
+  Service Area #1: 438:Fr:2
+
+581:[580:Ju, 578:Ju, 455:Fr, 480:Fr, 564:Fr, 467:Fr, 511:Fr]
+  Service Area #1: 438:Fr:1
+
+Customer# 438:Fr leaves and his/her total wait time is 144
+
+582:[580:Ju, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 578:Ju:6
+
+New Customer 583:Ju
+
+583:[580:Ju, 467:Fr, 583:Ju, 480:Fr, 564:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 578:Ju:5
+
+584:[580:Ju, 467:Fr, 583:Ju, 480:Fr, 564:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 578:Ju:4
+
+585:[580:Ju, 467:Fr, 583:Ju, 480:Fr, 564:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 578:Ju:3
+
+586:[580:Ju, 467:Fr, 583:Ju, 480:Fr, 564:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 578:Ju:2
+
+587:[580:Ju, 467:Fr, 583:Ju, 480:Fr, 564:Fr, 511:Fr, 455:Fr]
+  Service Area #1: 578:Ju:1
+
+Customer# 578:Ju leaves and his/her total wait time is 10
+
+588:[583:Ju, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 580:Ju:4
+
+589:[583:Ju, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 580:Ju:3
+
+590:[583:Ju, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 580:Ju:2
+
+591:[583:Ju, 467:Fr, 455:Fr, 480:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 580:Ju:1
+
+Customer# 580:Ju leaves and his/her total wait time is 12
+
+592:[455:Fr, 467:Fr, 511:Fr, 480:Fr, 564:Fr]
+  Service Area #1: 583:Ju:3
+
+593:[455:Fr, 467:Fr, 511:Fr, 480:Fr, 564:Fr]
+  Service Area #1: 583:Ju:2
+
+594:[455:Fr, 467:Fr, 511:Fr, 480:Fr, 564:Fr]
+  Service Area #1: 583:Ju:1
+
+Customer# 583:Ju leaves and his/her total wait time is 12
+
+595:[480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 455:Fr:4
+
+596:[480:Fr, 467:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 455:Fr:3
+
+New Customer 597:Fr
+
+597:[480:Fr, 467:Fr, 511:Fr, 564:Fr, 597:Fr]
+  Service Area #1: 455:Fr:2
+
+598:[480:Fr, 467:Fr, 511:Fr, 564:Fr, 597:Fr]
+  Service Area #1: 455:Fr:1
+
+Customer# 455:Fr leaves and his/her total wait time is 144
+
+599:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:7
+
+600:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:6
+
+601:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:5
+
+602:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:4
+
+603:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:3
+
+604:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:2
+
+605:[480:Fr, 597:Fr, 511:Fr, 564:Fr]
+  Service Area #1: 467:Fr:1
+
+Customer# 467:Fr leaves and his/her total wait time is 139
+
+606:[511:Fr, 597:Fr, 564:Fr]
+  Service Area #1: 480:Fr:3
+
+New Customer 607:Ju
+
+607:[607:Ju, 597:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 480:Fr:2
+
+608:[607:Ju, 597:Fr, 564:Fr, 511:Fr]
+  Service Area #1: 480:Fr:1
+
+Customer# 480:Fr leaves and his/her total wait time is 129
+
+609:[511:Fr, 597:Fr, 564:Fr]
+  Service Area #1: 607:Ju:4
+
+610:[511:Fr, 597:Fr, 564:Fr]
+  Service Area #1: 607:Ju:3
+
+611:[511:Fr, 597:Fr, 564:Fr]
+  Service Area #1: 607:Ju:2
+
+New Customer 612:Fr
+
+612:[511:Fr, 597:Fr, 564:Fr, 612:Fr]
+  Service Area #1: 607:Ju:1
+
+Customer# 607:Ju leaves and his/her total wait time is 6
+
+613:[564:Fr, 597:Fr, 612:Fr]
+  Service Area #1: 511:Fr:6
+
+614:[564:Fr, 597:Fr, 612:Fr]
+  Service Area #1: 511:Fr:5
+
+615:[564:Fr, 597:Fr, 612:Fr]
+  Service Area #1: 511:Fr:4
+
+616:[564:Fr, 597:Fr, 612:Fr]
+  Service Area #1: 511:Fr:3
+
+617:[564:Fr, 597:Fr, 612:Fr]
+  Service Area #1: 511:Fr:2
+
+618:[564:Fr, 597:Fr, 612:Fr]
+  Service Area #1: 511:Fr:1
+
+Customer# 511:Fr leaves and his/her total wait time is 108
+
+619:[612:Fr, 597:Fr]
+  Service Area #1: 564:Fr:3
+
+620:[612:Fr, 597:Fr]
+  Service Area #1: 564:Fr:2
+
+621:[612:Fr, 597:Fr]
+  Service Area #1: 564:Fr:1
+
+Customer# 564:Fr leaves and his/her total wait time is 58
+
+New Customer 622:Fr
+
+622:[612:Fr, 622:Fr]
+  Service Area #1: 597:Fr:2
+
+623:[612:Fr, 622:Fr]
+  Service Area #1: 597:Fr:1
+
+Customer# 597:Fr leaves and his/her total wait time is 27
+
+624:[622:Fr]
+  Service Area #1: 612:Fr:6
+
+625:[622:Fr]
+  Service Area #1: 612:Fr:5
+
+626:[622:Fr]
+  Service Area #1: 612:Fr:4
+
+627:[622:Fr]
+  Service Area #1: 612:Fr:3
+
+New Customer 628:Fr
+
+628:[622:Fr, 628:Fr]
+  Service Area #1: 612:Fr:2
+
+629:[622:Fr, 628:Fr]
+  Service Area #1: 612:Fr:1
+
+Customer# 612:Fr leaves and his/her total wait time is 18
+
+630:[628:Fr]
+  Service Area #1: 622:Fr:7
+
+New Customer 631:Ju
+
+631:[628:Fr, 631:Ju]
+  Service Area #1: 622:Fr:6
+
+New Customer 632:Se
+
+632:[632:Se, 631:Ju, 628:Fr]
+  Service Area #1: 622:Fr:5
+
+633:[632:Se, 631:Ju, 628:Fr]
+  Service Area #1: 622:Fr:4
+
+634:[632:Se, 631:Ju, 628:Fr]
+  Service Area #1: 622:Fr:3
+
+635:[632:Se, 631:Ju, 628:Fr]
+  Service Area #1: 622:Fr:2
+
+New Customer 636:So
+
+636:[632:Se, 631:Ju, 628:Fr, 636:So]
+  Service Area #1: 622:Fr:1
+
+Customer# 622:Fr leaves and his/her total wait time is 15
+
+637:[636:So, 631:Ju, 628:Fr]
+  Service Area #1: 632:Se:7
+
+New Customer 638:Ju
+
+638:[638:Ju, 631:Ju, 628:Fr, 636:So]
+  Service Area #1: 632:Se:6
+
+New Customer 639:Ju
+
+639:[638:Ju, 631:Ju, 628:Fr, 636:So, 639:Ju]
+  Service Area #1: 632:Se:5
+
+640:[638:Ju, 631:Ju, 628:Fr, 636:So, 639:Ju]
+  Service Area #1: 632:Se:4
+
+641:[638:Ju, 631:Ju, 628:Fr, 636:So, 639:Ju]
+  Service Area #1: 632:Se:3
+
+642:[638:Ju, 631:Ju, 628:Fr, 636:So, 639:Ju]
+  Service Area #1: 632:Se:2
+
+643:[638:Ju, 631:Ju, 628:Fr, 636:So, 639:Ju]
+  Service Area #1: 632:Se:1
+
+Customer# 632:Se leaves and his/her total wait time is 12
+
+New Customer 644:So
+
+644:[638:Ju, 639:Ju, 628:Fr, 636:So, 644:So]
+  Service Area #1: 631:Ju:5
+
+645:[638:Ju, 639:Ju, 628:Fr, 636:So, 644:So]
+  Service Area #1: 631:Ju:4
+
+646:[638:Ju, 639:Ju, 628:Fr, 636:So, 644:So]
+  Service Area #1: 631:Ju:3
+
+647:[638:Ju, 639:Ju, 628:Fr, 636:So, 644:So]
+  Service Area #1: 631:Ju:2
+
+648:[638:Ju, 639:Ju, 628:Fr, 636:So, 644:So]
+  Service Area #1: 631:Ju:1
+
+Customer# 631:Ju leaves and his/her total wait time is 18
+
+649:[636:So, 639:Ju, 628:Fr, 644:So]
+  Service Area #1: 638:Ju:6
+
+650:[636:So, 639:Ju, 628:Fr, 644:So]
+  Service Area #1: 638:Ju:5
+
+651:[636:So, 639:Ju, 628:Fr, 644:So]
+  Service Area #1: 638:Ju:4
+
+652:[636:So, 639:Ju, 628:Fr, 644:So]
+  Service Area #1: 638:Ju:3
+
+653:[636:So, 639:Ju, 628:Fr, 644:So]
+  Service Area #1: 638:Ju:2
+
+654:[636:So, 639:Ju, 628:Fr, 644:So]
+  Service Area #1: 638:Ju:1
+
+Customer# 638:Ju leaves and his/her total wait time is 17
+
+655:[636:So, 644:So, 628:Fr]
+  Service Area #1: 639:Ju:2
+
+656:[636:So, 644:So, 628:Fr]
+  Service Area #1: 639:Ju:1
+
+Customer# 639:Ju leaves and his/her total wait time is 18
+
+657:[628:Fr, 644:So]
+  Service Area #1: 636:So:2
+
+658:[628:Fr, 644:So]
+  Service Area #1: 636:So:1
+
+Customer# 636:So leaves and his/her total wait time is 23
+
+659:[628:Fr]
+  Service Area #1: 644:So:6
+
+New Customer 660:Ju
+
+660:[628:Fr, 660:Ju]
+  Service Area #1: 644:So:5
+
+661:[628:Fr, 660:Ju]
+  Service Area #1: 644:So:4
+
+New Customer 662:Fr
+
+662:[628:Fr, 660:Ju, 662:Fr]
+  Service Area #1: 644:So:3
+
+663:[628:Fr, 660:Ju, 662:Fr]
+  Service Area #1: 644:So:2
+
+New Customer 664:Se
+
+664:[664:Se, 660:Ju, 662:Fr, 628:Fr]
+  Service Area #1: 644:So:1
+
+Customer# 644:So leaves and his/her total wait time is 21
+
+665:[628:Fr, 660:Ju, 662:Fr]
+  Service Area #1: 664:Se:4
+
+New Customer 666:Se
+
+666:[666:Se, 660:Ju, 662:Fr, 628:Fr]
+  Service Area #1: 664:Se:3
+
+667:[666:Se, 660:Ju, 662:Fr, 628:Fr]
+  Service Area #1: 664:Se:2
+
+668:[666:Se, 660:Ju, 662:Fr, 628:Fr]
+  Service Area #1: 664:Se:1
+
+Customer# 664:Se leaves and his/her total wait time is 5
+
+New Customer 669:Se
+
+669:[669:Se, 660:Ju, 662:Fr, 628:Fr]
+  Service Area #1: 666:Se:2
+
+670:[669:Se, 660:Ju, 662:Fr, 628:Fr]
+  Service Area #1: 666:Se:1
+
+Customer# 666:Se leaves and his/her total wait time is 5
+
+671:[628:Fr, 660:Ju, 662:Fr]
+  Service Area #1: 669:Se:2
+
+672:[628:Fr, 660:Ju, 662:Fr]
+  Service Area #1: 669:Se:1
+
+Customer# 669:Se leaves and his/her total wait time is 4
+
+New Customer 673:Fr
+
+673:[628:Fr, 662:Fr, 673:Fr]
+  Service Area #1: 660:Ju:2
+
+674:[628:Fr, 662:Fr, 673:Fr]
+  Service Area #1: 660:Ju:1
+
+Customer# 660:Ju leaves and his/her total wait time is 15
+
+675:[673:Fr, 662:Fr]
+  Service Area #1: 628:Fr:4
+
+676:[673:Fr, 662:Fr]
+  Service Area #1: 628:Fr:3
+
+677:[673:Fr, 662:Fr]
+  Service Area #1: 628:Fr:2
+
+678:[673:Fr, 662:Fr]
+  Service Area #1: 628:Fr:1
+
+Customer# 628:Fr leaves and his/her total wait time is 51
+
+679:[673:Fr]
+  Service Area #1: 662:Fr:3
+
+680:[673:Fr]
+  Service Area #1: 662:Fr:2
+
+681:[673:Fr]
+  Service Area #1: 662:Fr:1
+
+Customer# 662:Fr leaves and his/her total wait time is 20
+
+682: []
+  Service Area #1: 673:Fr:3
+
+683: []
+  Service Area #1: 673:Fr:2
+
+New Customer 684:Fr
+
+684:[684:Fr]
+  Service Area #1: 673:Fr:1
+
+Customer# 673:Fr leaves and his/her total wait time is 12
+
+New Customer 685:Ju
+
+685:[685:Ju]
+  Service Area #1: 684:Fr:4
+
+686:[685:Ju]
+  Service Area #1: 684:Fr:3
+
+687:[685:Ju]
+  Service Area #1: 684:Fr:2
+
+New Customer 688:Fr
+
+688:[685:Ju, 688:Fr]
+  Service Area #1: 684:Fr:1
+
+Customer# 684:Fr leaves and his/her total wait time is 5
+
+689:[688:Fr]
+  Service Area #1: 685:Ju:5
+
+690:[688:Fr]
+  Service Area #1: 685:Ju:4
+
+691:[688:Fr]
+  Service Area #1: 685:Ju:3
+
+692:[688:Fr]
+  Service Area #1: 685:Ju:2
+
+693:[688:Fr]
+  Service Area #1: 685:Ju:1
+
+Customer# 685:Ju leaves and his/her total wait time is 9
+
+694: []
+  Service Area #1: 688:Fr:7
+
+695: []
+  Service Area #1: 688:Fr:6
+
+696: []
+  Service Area #1: 688:Fr:5
+
+697: []
+  Service Area #1: 688:Fr:4
+
+698: []
+  Service Area #1: 688:Fr:3
+
+New Customer 699:So
+
+699:[699:So]
+  Service Area #1: 688:Fr:2
+
+700:[699:So]
+  Service Area #1: 688:Fr:1
+
+Customer# 688:Fr leaves and his/her total wait time is 13
+
+701: []
+  Service Area #1: 699:So:4
+
+702: []
+  Service Area #1: 699:So:3
+
+New Customer 703:Fr
+
+703:[703:Fr]
+  Service Area #1: 699:So:2
+
+704:[703:Fr]
+  Service Area #1: 699:So:1
+
+Customer# 699:So leaves and his/her total wait time is 6
+
+705: []
+  Service Area #1: 703:Fr:3
+
+706: []
+  Service Area #1: 703:Fr:2
+
+707: []
+  Service Area #1: 703:Fr:1
+
+Customer# 703:Fr leaves and his/her total wait time is 5
+
+708: []
+  Service Area #1: -1:-1
+
+709: []
+  Service Area #1: -1:-1
+
+710: []
+  Service Area #1: -1:-1
+
+711: []
+  Service Area #1: -1:-1
+
+712: []
+  Service Area #1: -1:-1
+
+713: []
+  Service Area #1: -1:-1
+
+714: []
+  Service Area #1: -1:-1
+
+715: []
+  Service Area #1: -1:-1
+
+716: []
+  Service Area #1: -1:-1
+
+New Customer 717:Fr
+
+717: []
+  Service Area #1: 717:Fr:5
+
+718: []
+  Service Area #1: 717:Fr:4
+
+719: []
+  Service Area #1: 717:Fr:3
+
+720: []
+  Service Area #1: 717:Fr:2
+
+721: []
+  Service Area #1: 717:Fr:1
+
+Customer# 717:Fr leaves and his/her total wait time is 5
+
+722: []
+  Service Area #1: -1:-1
+
+New Customer 723:Ju
+
+723: []
+  Service Area #1: 723:Ju:5
+
+724: []
+  Service Area #1: 723:Ju:4
+
+New Customer 725:Se
+
+725:[725:Se]
+  Service Area #1: 723:Ju:3
+
+726:[725:Se]
+  Service Area #1: 723:Ju:2
+
+727:[725:Se]
+  Service Area #1: 723:Ju:1
+
+Customer# 723:Ju leaves and his/her total wait time is 5
+
+728: []
+  Service Area #1: 725:Se:2
+
+New Customer 729:Fr
+
+729:[729:Fr]
+  Service Area #1: 725:Se:1
+
+Customer# 725:Se leaves and his/her total wait time is 5
+
+730: []
+  Service Area #1: 729:Fr:7
+
+New Customer 731:So
+
+731:[731:So]
+  Service Area #1: 729:Fr:6
+
+732:[731:So]
+  Service Area #1: 729:Fr:5
+
+733:[731:So]
+  Service Area #1: 729:Fr:4
+
+734:[731:So]
+  Service Area #1: 729:Fr:3
+
+735:[731:So]
+  Service Area #1: 729:Fr:2
+
+736:[731:So]
+  Service Area #1: 729:Fr:1
+
+Customer# 729:Fr leaves and his/her total wait time is 8
+
+737: []
+  Service Area #1: 731:So:5
+
+738: []
+  Service Area #1: 731:So:4
+
+739: []
+  Service Area #1: 731:So:3
+
+740: []
+  Service Area #1: 731:So:2
+
+741: []
+  Service Area #1: 731:So:1
+
+Customer# 731:So leaves and his/her total wait time is 11
+
+742: []
+  Service Area #1: -1:-1
+
+743: []
+  Service Area #1: -1:-1
+
+744: []
+  Service Area #1: -1:-1
+
+745: []
+  Service Area #1: -1:-1
+
+746: []
+  Service Area #1: -1:-1
+
+747: []
+  Service Area #1: -1:-1
+
+748: []
+  Service Area #1: -1:-1
+
+749: []
+  Service Area #1: -1:-1
+
+750: []
+  Service Area #1: -1:-1
+
+751: []
+  Service Area #1: -1:-1
+
+752: []
+  Service Area #1: -1:-1
+
+753: []
+  Service Area #1: -1:-1
+
+New Customer 754:Ju
+
+754: []
+  Service Area #1: 754:Ju:2
+
+755: []
+  Service Area #1: 754:Ju:1
+
+Customer# 754:Ju leaves and his/her total wait time is 2
+
+756: []
+  Service Area #1: -1:-1
+
+757: []
+  Service Area #1: -1:-1
+
+758: []
+  Service Area #1: -1:-1
+
+759: []
+  Service Area #1: -1:-1
+
+760: []
+  Service Area #1: -1:-1
+
+761: []
+  Service Area #1: -1:-1
+
+762: []
+  Service Area #1: -1:-1
+
+763: []
+  Service Area #1: -1:-1
+
+764: []
+  Service Area #1: -1:-1
+
+765: []
+  Service Area #1: -1:-1
+
+New Customer 766:Fr
+
+766: []
+  Service Area #1: 766:Fr:5
+
+767: []
+  Service Area #1: 766:Fr:4
+
+768: []
+  Service Area #1: 766:Fr:3
+
+769: []
+  Service Area #1: 766:Fr:2
+
+770: []
+  Service Area #1: 766:Fr:1
+
+Customer# 766:Fr leaves and his/her total wait time is 5
+
+771: []
+  Service Area #1: -1:-1
+
+772: []
+  Service Area #1: -1:-1
+
+773: []
+  Service Area #1: -1:-1
+
+New Customer 774:Ju
+
+774: []
+  Service Area #1: 774:Ju:4
+
+New Customer 775:Ju
+
+775:[775:Ju]
+  Service Area #1: 774:Ju:3
+
+776:[775:Ju]
+  Service Area #1: 774:Ju:2
+
+New Customer 777:So
+
+777:[775:Ju, 777:So]
+  Service Area #1: 774:Ju:1
+
+Customer# 774:Ju leaves and his/her total wait time is 4
+
+778:[777:So]
+  Service Area #1: 775:Ju:7
+
+779:[777:So]
+  Service Area #1: 775:Ju:6
+
+New Customer 780:Ju
+
+780:[777:So, 780:Ju]
+  Service Area #1: 775:Ju:5
+
+781:[777:So, 780:Ju]
+  Service Area #1: 775:Ju:4
+
+782:[777:So, 780:Ju]
+  Service Area #1: 775:Ju:3
+
+783:[777:So, 780:Ju]
+  Service Area #1: 775:Ju:2
+
+784:[777:So, 780:Ju]
+  Service Area #1: 775:Ju:1
+
+Customer# 775:Ju leaves and his/her total wait time is 10
+
+785:[777:So]
+  Service Area #1: 780:Ju:2
+
+New Customer 786:Ju
+
+786:[777:So, 786:Ju]
+  Service Area #1: 780:Ju:1
+
+Customer# 780:Ju leaves and his/her total wait time is 7
+
+New Customer 787:Ju
+
+787:[777:So, 787:Ju]
+  Service Area #1: 786:Ju:5
+
+New Customer 788:Se
+
+788:[788:Se, 787:Ju, 777:So]
+  Service Area #1: 786:Ju:4
+
+New Customer 789:Ju
+
+789:[788:Se, 787:Ju, 777:So, 789:Ju]
+  Service Area #1: 786:Ju:3
+
+New Customer 790:So
+
+790:[788:Se, 787:Ju, 777:So, 789:Ju, 790:So]
+  Service Area #1: 786:Ju:2
+
+791:[788:Se, 787:Ju, 777:So, 789:Ju, 790:So]
+  Service Area #1: 786:Ju:1
+
+Customer# 786:Ju leaves and his/her total wait time is 6
+
+792:[789:Ju, 787:Ju, 777:So, 790:So]
+  Service Area #1: 788:Se:2
+
+793:[789:Ju, 787:Ju, 777:So, 790:So]
+  Service Area #1: 788:Se:1
+
+Customer# 788:Se leaves and his/her total wait time is 6
+
+New Customer 794:Ju
+
+794:[789:Ju, 790:So, 777:So, 794:Ju]
+  Service Area #1: 787:Ju:7
+
+795:[789:Ju, 790:So, 777:So, 794:Ju]
+  Service Area #1: 787:Ju:6
+
+New Customer 796:Se
+
+796:[789:Ju, 796:Se, 777:So, 794:Ju, 790:So]
+  Service Area #1: 787:Ju:5
+
+797:[789:Ju, 796:Se, 777:So, 794:Ju, 790:So]
+  Service Area #1: 787:Ju:4
+
+798:[789:Ju, 796:Se, 777:So, 794:Ju, 790:So]
+  Service Area #1: 787:Ju:3
+
+799:[789:Ju, 796:Se, 777:So, 794:Ju, 790:So]
+  Service Area #1: 787:Ju:2
+
+800:[789:Ju, 796:Se, 777:So, 794:Ju, 790:So]
+  Service Area #1: 787:Ju:1
+
+Customer# 787:Ju leaves and his/her total wait time is 14
+
+New Customer 801:So
+
+801:[789:Ju, 790:So, 777:So, 794:Ju, 801:So]
+  Service Area #1: 796:Se:3
+
+New Customer 802:So
+
+802:[789:Ju, 790:So, 777:So, 794:Ju, 801:So, 802:So]
+  Service Area #1: 796:Se:2
+
+803:[789:Ju, 790:So, 777:So, 794:Ju, 801:So, 802:So]
+  Service Area #1: 796:Se:1
+
+Customer# 796:Se leaves and his/her total wait time is 8
+
+804:[794:Ju, 790:So, 777:So, 802:So, 801:So]
+  Service Area #1: 789:Ju:2
+
+805:[794:Ju, 790:So, 777:So, 802:So, 801:So]
+  Service Area #1: 789:Ju:1
+
+Customer# 789:Ju leaves and his/her total wait time is 17
+
+806:[777:So, 790:So, 801:So, 802:So]
+  Service Area #1: 794:Ju:4
+
+807:[777:So, 790:So, 801:So, 802:So]
+  Service Area #1: 794:Ju:3
+
+808:[777:So, 790:So, 801:So, 802:So]
+  Service Area #1: 794:Ju:2
+
+809:[777:So, 790:So, 801:So, 802:So]
+  Service Area #1: 794:Ju:1
+
+Customer# 794:Ju leaves and his/her total wait time is 16
+
+810:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:7
+
+811:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:6
+
+812:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:5
+
+813:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:4
+
+814:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:3
+
+815:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:2
+
+816:[801:So, 790:So, 802:So]
+  Service Area #1: 777:So:1
+
+Customer# 777:So leaves and his/her total wait time is 40
+
+817:[801:So, 802:So]
+  Service Area #1: 790:So:2
+
+818:[801:So, 802:So]
+  Service Area #1: 790:So:1
+
+Customer# 790:So leaves and his/her total wait time is 29
+
+819:[802:So]
+  Service Area #1: 801:So:6
+
+820:[802:So]
+  Service Area #1: 801:So:5
+
+821:[802:So]
+  Service Area #1: 801:So:4
+
+New Customer 822:Se
+
+822:[802:So, 822:Se]
+  Service Area #1: 801:So:3
+
+823:[802:So, 822:Se]
+  Service Area #1: 801:So:2
+
+824:[802:So, 822:Se]
+  Service Area #1: 801:So:1
+
+Customer# 801:So leaves and his/her total wait time is 24
+
+825:[802:So]
+  Service Area #1: 822:Se:6
+
+826:[802:So]
+  Service Area #1: 822:Se:5
+
+827:[802:So]
+  Service Area #1: 822:Se:4
+
+828:[802:So]
+  Service Area #1: 822:Se:3
+
+829:[802:So]
+  Service Area #1: 822:Se:2
+
+830:[802:So]
+  Service Area #1: 822:Se:1
+
+Customer# 822:Se leaves and his/her total wait time is 9
+
+831: []
+  Service Area #1: 802:So:7
+
+832: []
+  Service Area #1: 802:So:6
+
+833: []
+  Service Area #1: 802:So:5
+
+834: []
+  Service Area #1: 802:So:4
+
+835: []
+  Service Area #1: 802:So:3
+
+836: []
+  Service Area #1: 802:So:2
+
+837: []
+  Service Area #1: 802:So:1
+
+Customer# 802:So leaves and his/her total wait time is 36
+
+New Customer 838:Ju
+
+838: []
+  Service Area #1: 838:Ju:6
+
+839: []
+  Service Area #1: 838:Ju:5
+
+840: []
+  Service Area #1: 838:Ju:4
+
+841: []
+  Service Area #1: 838:Ju:3
+
+842: []
+  Service Area #1: 838:Ju:2
+
+843: []
+  Service Area #1: 838:Ju:1
+
+Customer# 838:Ju leaves and his/her total wait time is 6
+
+844: []
+  Service Area #1: -1:-1
+
+845: []
+  Service Area #1: -1:-1
+
+846: []
+  Service Area #1: -1:-1
+
+847: []
+  Service Area #1: -1:-1
+
+848: []
+  Service Area #1: -1:-1
+
+849: []
+  Service Area #1: -1:-1
+
+850: []
+  Service Area #1: -1:-1
+
+New Customer 851:So
+
+851: []
+  Service Area #1: 851:So:4
+
+New Customer 852:Fr
+
+852:[852:Fr]
+  Service Area #1: 851:So:3
+
+853:[852:Fr]
+  Service Area #1: 851:So:2
+
+854:[852:Fr]
+  Service Area #1: 851:So:1
+
+Customer# 851:So leaves and his/her total wait time is 4
+
+855: []
+  Service Area #1: 852:Fr:3
+
+New Customer 856:So
+
+856:[856:So]
+  Service Area #1: 852:Fr:2
+
+857:[856:So]
+  Service Area #1: 852:Fr:1
+
+Customer# 852:Fr leaves and his/her total wait time is 6
+
+858: []
+  Service Area #1: 856:So:5
+
+859: []
+  Service Area #1: 856:So:4
+
+860: []
+  Service Area #1: 856:So:3
+
+861: []
+  Service Area #1: 856:So:2
+
+862: []
+  Service Area #1: 856:So:1
+
+Customer# 856:So leaves and his/her total wait time is 7
+
+863: []
+  Service Area #1: -1:-1
+
+864: []
+  Service Area #1: -1:-1
+
+865: []
+  Service Area #1: -1:-1
+
+866: []
+  Service Area #1: -1:-1
+
+New Customer 867:Se
+
+867: []
+  Service Area #1: 867:Se:6
+
+868: []
+  Service Area #1: 867:Se:5
+
+869: []
+  Service Area #1: 867:Se:4
+
+870: []
+  Service Area #1: 867:Se:3
+
+871: []
+  Service Area #1: 867:Se:2
+
+872: []
+  Service Area #1: 867:Se:1
+
+Customer# 867:Se leaves and his/her total wait time is 6
+
+New Customer 873:So
+
+873: []
+  Service Area #1: 873:So:4
+
+874: []
+  Service Area #1: 873:So:3
+
+875: []
+  Service Area #1: 873:So:2
+
+New Customer 876:Se
+
+876:[876:Se]
+  Service Area #1: 873:So:1
+
+Customer# 873:So leaves and his/her total wait time is 4
+
+New Customer 877:Fr
+
+877:[877:Fr]
+  Service Area #1: 876:Se:5
+
+878:[877:Fr]
+  Service Area #1: 876:Se:4
+
+879:[877:Fr]
+  Service Area #1: 876:Se:3
+
+880:[877:Fr]
+  Service Area #1: 876:Se:2
+
+881:[877:Fr]
+  Service Area #1: 876:Se:1
+
+Customer# 876:Se leaves and his/her total wait time is 6
+
+882: []
+  Service Area #1: 877:Fr:5
+
+883: []
+  Service Area #1: 877:Fr:4
+
+884: []
+  Service Area #1: 877:Fr:3
+
+885: []
+  Service Area #1: 877:Fr:2
+
+886: []
+  Service Area #1: 877:Fr:1
+
+Customer# 877:Fr leaves and his/her total wait time is 10
+
+New Customer 887:Se
+
+887: []
+  Service Area #1: 887:Se:3
+
+888: []
+  Service Area #1: 887:Se:2
+
+889: []
+  Service Area #1: 887:Se:1
+
+Customer# 887:Se leaves and his/her total wait time is 3
+
+890: []
+  Service Area #1: -1:-1
+
+891: []
+  Service Area #1: -1:-1
+
+New Customer 892:Ju
+
+892: []
+  Service Area #1: 892:Ju:7
+
+New Customer 893:Ju
+
+893:[893:Ju]
+  Service Area #1: 892:Ju:6
+
+New Customer 894:Fr
+
+894:[893:Ju, 894:Fr]
+  Service Area #1: 892:Ju:5
+
+895:[893:Ju, 894:Fr]
+  Service Area #1: 892:Ju:4
+
+896:[893:Ju, 894:Fr]
+  Service Area #1: 892:Ju:3
+
+897:[893:Ju, 894:Fr]
+  Service Area #1: 892:Ju:2
+
+898:[893:Ju, 894:Fr]
+  Service Area #1: 892:Ju:1
+
+Customer# 892:Ju leaves and his/her total wait time is 7
+
+899:[894:Fr]
+  Service Area #1: 893:Ju:3
+
+New Customer 900:Ju
+
+900:[894:Fr, 900:Ju]
+  Service Area #1: 893:Ju:2
+
+901:[894:Fr, 900:Ju]
+  Service Area #1: 893:Ju:1
+
+Customer# 893:Ju leaves and his/her total wait time is 9
+
+902:[894:Fr]
+  Service Area #1: 900:Ju:5
+
+903:[894:Fr]
+  Service Area #1: 900:Ju:4
+
+904:[894:Fr]
+  Service Area #1: 900:Ju:3
+
+905:[894:Fr]
+  Service Area #1: 900:Ju:2
+
+New Customer 906:Ju
+
+906:[894:Fr, 906:Ju]
+  Service Area #1: 900:Ju:1
+
+Customer# 900:Ju leaves and his/her total wait time is 7
+
+907:[894:Fr]
+  Service Area #1: 906:Ju:4
+
+908:[894:Fr]
+  Service Area #1: 906:Ju:3
+
+909:[894:Fr]
+  Service Area #1: 906:Ju:2
+
+New Customer 910:Fr
+
+910:[894:Fr, 910:Fr]
+  Service Area #1: 906:Ju:1
+
+Customer# 906:Ju leaves and his/her total wait time is 5
+
+911:[910:Fr]
+  Service Area #1: 894:Fr:5
+
+912:[910:Fr]
+  Service Area #1: 894:Fr:4
+
+913:[910:Fr]
+  Service Area #1: 894:Fr:3
+
+914:[910:Fr]
+  Service Area #1: 894:Fr:2
+
+New Customer 915:So
+
+915:[910:Fr, 915:So]
+  Service Area #1: 894:Fr:1
+
+Customer# 894:Fr leaves and his/her total wait time is 22
+
+916:[910:Fr]
+  Service Area #1: 915:So:2
+
+New Customer 917:Ju
+
+917:[910:Fr, 917:Ju]
+  Service Area #1: 915:So:1
+
+Customer# 915:So leaves and his/her total wait time is 3
+
+New Customer 918:Ju
+
+918:[910:Fr, 918:Ju]
+  Service Area #1: 917:Ju:5
+
+919:[910:Fr, 918:Ju]
+  Service Area #1: 917:Ju:4
+
+920:[910:Fr, 918:Ju]
+  Service Area #1: 917:Ju:3
+
+921:[910:Fr, 918:Ju]
+  Service Area #1: 917:Ju:2
+
+922:[910:Fr, 918:Ju]
+  Service Area #1: 917:Ju:1
+
+Customer# 917:Ju leaves and his/her total wait time is 6
+
+923:[910:Fr]
+  Service Area #1: 918:Ju:6
+
+924:[910:Fr]
+  Service Area #1: 918:Ju:5
+
+925:[910:Fr]
+  Service Area #1: 918:Ju:4
+
+926:[910:Fr]
+  Service Area #1: 918:Ju:3
+
+New Customer 927:Fr
+
+927:[910:Fr, 927:Fr]
+  Service Area #1: 918:Ju:2
+
+New Customer 928:Se
+
+928:[928:Se, 927:Fr, 910:Fr]
+  Service Area #1: 918:Ju:1
+
+Customer# 918:Ju leaves and his/her total wait time is 11
+
+929:[910:Fr, 927:Fr]
+  Service Area #1: 928:Se:5
+
+930:[910:Fr, 927:Fr]
+  Service Area #1: 928:Se:4
+
+931:[910:Fr, 927:Fr]
+  Service Area #1: 928:Se:3
+
+932:[910:Fr, 927:Fr]
+  Service Area #1: 928:Se:2
+
+933:[910:Fr, 927:Fr]
+  Service Area #1: 928:Se:1
+
+Customer# 928:Se leaves and his/her total wait time is 6
+
+New Customer 934:Fr
+
+934:[927:Fr, 934:Fr]
+  Service Area #1: 910:Fr:4
+
+New Customer 935:Fr
+
+935:[927:Fr, 934:Fr, 935:Fr]
+  Service Area #1: 910:Fr:3
+
+936:[927:Fr, 934:Fr, 935:Fr]
+  Service Area #1: 910:Fr:2
+
+937:[927:Fr, 934:Fr, 935:Fr]
+  Service Area #1: 910:Fr:1
+
+Customer# 910:Fr leaves and his/her total wait time is 28
+
+938:[935:Fr, 934:Fr]
+  Service Area #1: 927:Fr:3
+
+939:[935:Fr, 934:Fr]
+  Service Area #1: 927:Fr:2
+
+940:[935:Fr, 934:Fr]
+  Service Area #1: 927:Fr:1
+
+Customer# 927:Fr leaves and his/her total wait time is 14
+
+941:[935:Fr]
+  Service Area #1: 934:Fr:5
+
+942:[935:Fr]
+  Service Area #1: 934:Fr:4
+
+New Customer 943:Ju
+
+943:[935:Fr, 943:Ju]
+  Service Area #1: 934:Fr:3
+
+944:[935:Fr, 943:Ju]
+  Service Area #1: 934:Fr:2
+
+945:[935:Fr, 943:Ju]
+  Service Area #1: 934:Fr:1
+
+Customer# 934:Fr leaves and his/her total wait time is 12
+
+New Customer 946:Ju
+
+946:[935:Fr, 946:Ju]
+  Service Area #1: 943:Ju:7
+
+947:[935:Fr, 946:Ju]
+  Service Area #1: 943:Ju:6
+
+948:[935:Fr, 946:Ju]
+  Service Area #1: 943:Ju:5
+
+949:[935:Fr, 946:Ju]
+  Service Area #1: 943:Ju:4
+
+950:[935:Fr, 946:Ju]
+  Service Area #1: 943:Ju:3
+
+951:[935:Fr, 946:Ju]
+  Service Area #1: 943:Ju:2
+
+New Customer 952:So
+
+952:[952:So, 946:Ju, 935:Fr]
+  Service Area #1: 943:Ju:1
+
+Customer# 943:Ju leaves and his/her total wait time is 10
+
+New Customer 953:So
+
+953:[952:So, 935:Fr, 953:So]
+  Service Area #1: 946:Ju:3
+
+954:[952:So, 935:Fr, 953:So]
+  Service Area #1: 946:Ju:2
+
+955:[952:So, 935:Fr, 953:So]
+  Service Area #1: 946:Ju:1
+
+Customer# 946:Ju leaves and his/her total wait time is 10
+
+956:[953:So, 935:Fr]
+  Service Area #1: 952:So:6
+
+957:[953:So, 935:Fr]
+  Service Area #1: 952:So:5
+
+958:[953:So, 935:Fr]
+  Service Area #1: 952:So:4
+
+959:[953:So, 935:Fr]
+  Service Area #1: 952:So:3
+
+960:[953:So, 935:Fr]
+  Service Area #1: 952:So:2
+
+961:[953:So, 935:Fr]
+  Service Area #1: 952:So:1
+
+Customer# 952:So leaves and his/her total wait time is 10
+
+962:[935:Fr]
+  Service Area #1: 953:So:6
+
+963:[935:Fr]
+  Service Area #1: 953:So:5
+
+964:[935:Fr]
+  Service Area #1: 953:So:4
+
+965:[935:Fr]
+  Service Area #1: 953:So:3
+
+966:[935:Fr]
+  Service Area #1: 953:So:2
+
+967:[935:Fr]
+  Service Area #1: 953:So:1
+
+Customer# 953:So leaves and his/her total wait time is 15
+
+968: []
+  Service Area #1: 935:Fr:7
+
+969: []
+  Service Area #1: 935:Fr:6
+
+970: []
+  Service Area #1: 935:Fr:5
+
+971: []
+  Service Area #1: 935:Fr:4
+
+972: []
+  Service Area #1: 935:Fr:3
+
+973: []
+  Service Area #1: 935:Fr:2
+
+974: []
+  Service Area #1: 935:Fr:1
+
+Customer# 935:Fr leaves and his/her total wait time is 40
+
+New Customer 975:Se
+
+975: []
+  Service Area #1: 975:Se:3
+
+976: []
+  Service Area #1: 975:Se:2
+
+977: []
+  Service Area #1: 975:Se:1
+
+Customer# 975:Se leaves and his/her total wait time is 3
+
+New Customer 978:So
+
+978: []
+  Service Area #1: 978:So:3
+
+979: []
+  Service Area #1: 978:So:2
+
+980: []
+  Service Area #1: 978:So:1
+
+Customer# 978:So leaves and his/her total wait time is 3
+
+981: []
+  Service Area #1: -1:-1
+
+New Customer 982:Ju
+
+982: []
+  Service Area #1: 982:Ju:4
+
+983: []
+  Service Area #1: 982:Ju:3
+
+New Customer 984:Fr
+
+984:[984:Fr]
+  Service Area #1: 982:Ju:2
+
+985:[984:Fr]
+  Service Area #1: 982:Ju:1
+
+Customer# 982:Ju leaves and his/her total wait time is 4
+
+New Customer 986:Fr
+
+986:[986:Fr]
+  Service Area #1: 984:Fr:4
+
+987:[986:Fr]
+  Service Area #1: 984:Fr:3
+
+988:[986:Fr]
+  Service Area #1: 984:Fr:2
+
+New Customer 989:Se
+
+989:[986:Fr, 989:Se]
+  Service Area #1: 984:Fr:1
+
+Customer# 984:Fr leaves and his/her total wait time is 6
+
+990:[986:Fr]
+  Service Area #1: 989:Se:5
+
+991:[986:Fr]
+  Service Area #1: 989:Se:4
+
+992:[986:Fr]
+  Service Area #1: 989:Se:3
+
+New Customer 993:So
+
+993:[986:Fr, 993:So]
+  Service Area #1: 989:Se:2
+
+994:[986:Fr, 993:So]
+  Service Area #1: 989:Se:1
+
+Customer# 989:Se leaves and his/her total wait time is 6
+
+995:[986:Fr]
+  Service Area #1: 993:So:4
+
+996:[986:Fr]
+  Service Area #1: 993:So:3
+
+997:[986:Fr]
+  Service Area #1: 993:So:2
+
+New Customer 998:Se
+
+998:[986:Fr, 998:Se]
+  Service Area #1: 993:So:1
+
+Customer# 993:So leaves and his/her total wait time is 6
+
+999:[986:Fr]
+  Service Area #1: 998:Se:7
+
+1000:[986:Fr]
+  Service Area #1: 998:Se:6
+
+1001:[986:Fr]
+  Service Area #1: 998:Se:5
+
+1002:[986:Fr]
+  Service Area #1: 998:Se:4
+
+1003:[986:Fr]
+  Service Area #1: 998:Se:3
+
+1004:[986:Fr]
+  Service Area #1: 998:Se:2
+
+1005:[986:Fr]
+  Service Area #1: 998:Se:1
+
+Customer# 998:Se leaves and his/her total wait time is 8
+
+1006: []
+  Service Area #1: 986:Fr:6
+
+1007: []
+  Service Area #1: 986:Fr:5
+
+1008: []
+  Service Area #1: 986:Fr:4
+
+1009: []
+  Service Area #1: 986:Fr:3
+
+New Customer 1010:Se
+
+1010:[1010:Se]
+  Service Area #1: 986:Fr:2
+
+1011:[1010:Se]
+  Service Area #1: 986:Fr:1
+
+Customer# 986:Fr leaves and his/her total wait time is 26
+
+1012: []
+  Service Area #1: 1010:Se:3
+
+1013: []
+  Service Area #1: 1010:Se:2
+
+New Customer 1014:Se
+
+1014:[1014:Se]
+  Service Area #1: 1010:Se:1
+
+Customer# 1010:Se leaves and his/her total wait time is 5
+
+New Customer 1015:Se
+
+1015:[1015:Se]
+  Service Area #1: 1014:Se:3
+
+1016:[1015:Se]
+  Service Area #1: 1014:Se:2
+
+1017:[1015:Se]
+  Service Area #1: 1014:Se:1
+
+Customer# 1014:Se leaves and his/her total wait time is 4
+
+1018: []
+  Service Area #1: 1015:Se:6
+
+New Customer 1019:Fr
+
+1019:[1019:Fr]
+  Service Area #1: 1015:Se:5
+
+1020:[1019:Fr]
+  Service Area #1: 1015:Se:4
+
+1021:[1019:Fr]
+  Service Area #1: 1015:Se:3
+
+1022:[1019:Fr]
+  Service Area #1: 1015:Se:2
+
+1023:[1019:Fr]
+  Service Area #1: 1015:Se:1
+
+Customer# 1015:Se leaves and his/her total wait time is 9
+
+1024: []
+  Service Area #1: 1019:Fr:3
+
+1025: []
+  Service Area #1: 1019:Fr:2
+
+New Customer 1026:Se
+
+1026:[1026:Se]
+  Service Area #1: 1019:Fr:1
+
+Customer# 1019:Fr leaves and his/her total wait time is 8
+
+1027: []
+  Service Area #1: 1026:Se:6
+
+1028: []
+  Service Area #1: 1026:Se:5
+
+1029: []
+  Service Area #1: 1026:Se:4
+
+1030: []
+  Service Area #1: 1026:Se:3
+
+New Customer 1031:Se
+
+1031:[1031:Se]
+  Service Area #1: 1026:Se:2
+
+1032:[1031:Se]
+  Service Area #1: 1026:Se:1
+
+Customer# 1026:Se leaves and his/her total wait time is 7
+
+1033: []
+  Service Area #1: 1031:Se:2
+
+New Customer 1034:Se
+
+1034:[1034:Se]
+  Service Area #1: 1031:Se:1
+
+Customer# 1031:Se leaves and his/her total wait time is 4
+
+1035: []
+  Service Area #1: 1034:Se:7
+
+1036: []
+  Service Area #1: 1034:Se:6
+
+1037: []
+  Service Area #1: 1034:Se:5
+
+1038: []
+  Service Area #1: 1034:Se:4
+
+1039: []
+  Service Area #1: 1034:Se:3
+
+1040: []
+  Service Area #1: 1034:Se:2
+
+1041: []
+  Service Area #1: 1034:Se:1
+
+Customer# 1034:Se leaves and his/her total wait time is 8
+
+1042: []
+  Service Area #1: -1:-1
+
+1043: []
+  Service Area #1: -1:-1
+
+1044: []
+  Service Area #1: -1:-1
+
+1045: []
+  Service Area #1: -1:-1
+
+1046: []
+  Service Area #1: -1:-1
+
+1047: []
+  Service Area #1: -1:-1
+
+New Customer 1048:Se
+
+1048: []
+  Service Area #1: 1048:Se:3
+
+1049: []
+  Service Area #1: 1048:Se:2
+
+1050: []
+  Service Area #1: 1048:Se:1
+
+Customer# 1048:Se leaves and his/her total wait time is 3
+
+New Customer 1051:Se
+
+1051: []
+  Service Area #1: 1051:Se:4
+
+1052: []
+  Service Area #1: 1051:Se:3
+
+1053: []
+  Service Area #1: 1051:Se:2
+
+1054: []
+  Service Area #1: 1051:Se:1
+
+Customer# 1051:Se leaves and his/her total wait time is 4
+
+1055: []
+  Service Area #1: -1:-1
+
+1056: []
+  Service Area #1: -1:-1
+
+New Customer 1057:Se
+
+1057: []
+  Service Area #1: 1057:Se:3
+
+1058: []
+  Service Area #1: 1057:Se:2
+
+New Customer 1059:Ju
+
+1059:[1059:Ju]
+  Service Area #1: 1057:Se:1
+
+Customer# 1057:Se leaves and his/her total wait time is 3
+
+1060: []
+  Service Area #1: 1059:Ju:7
+
+1061: []
+  Service Area #1: 1059:Ju:6
+
+New Customer 1062:So
+
+1062:[1062:So]
+  Service Area #1: 1059:Ju:5
+
+New Customer 1063:Fr
+
+1063:[1062:So, 1063:Fr]
+  Service Area #1: 1059:Ju:4
+
+1064:[1062:So, 1063:Fr]
+  Service Area #1: 1059:Ju:3
+
+1065:[1062:So, 1063:Fr]
+  Service Area #1: 1059:Ju:2
+
+New Customer 1066:Se
+
+1066:[1066:Se, 1063:Fr, 1062:So]
+  Service Area #1: 1059:Ju:1
+
+Customer# 1059:Ju leaves and his/her total wait time is 8
+
+1067:[1062:So, 1063:Fr]
+  Service Area #1: 1066:Se:7
+
+New Customer 1068:Ju
+
+1068:[1068:Ju, 1063:Fr, 1062:So]
+  Service Area #1: 1066:Se:6
+
+1069:[1068:Ju, 1063:Fr, 1062:So]
+  Service Area #1: 1066:Se:5
+
+New Customer 1070:Se
+
+1070:[1070:Se, 1063:Fr, 1062:So, 1068:Ju]
+  Service Area #1: 1066:Se:4
+
+1071:[1070:Se, 1063:Fr, 1062:So, 1068:Ju]
+  Service Area #1: 1066:Se:3
+
+New Customer 1072:Se
+
+1072:[1070:Se, 1072:Se, 1062:So, 1068:Ju, 1063:Fr]
+  Service Area #1: 1066:Se:2
+
+1073:[1070:Se, 1072:Se, 1062:So, 1068:Ju, 1063:Fr]
+  Service Area #1: 1066:Se:1
+
+Customer# 1066:Se leaves and his/her total wait time is 8
+
+1074:[1068:Ju, 1072:Se, 1062:So, 1063:Fr]
+  Service Area #1: 1070:Se:3
+
+1075:[1068:Ju, 1072:Se, 1062:So, 1063:Fr]
+  Service Area #1: 1070:Se:2
+
+1076:[1068:Ju, 1072:Se, 1062:So, 1063:Fr]
+  Service Area #1: 1070:Se:1
+
+Customer# 1070:Se leaves and his/her total wait time is 7
+
+New Customer 1077:Se
+
+1077:[1077:Se, 1063:Fr, 1062:So, 1068:Ju]
+  Service Area #1: 1072:Se:6
+
+New Customer 1078:So
+
+1078:[1077:Se, 1078:So, 1062:So, 1068:Ju, 1063:Fr]
+  Service Area #1: 1072:Se:5
+
+New Customer 1079:Ju
+
+1079:[1077:Se, 1079:Ju, 1062:So, 1068:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1072:Se:4
+
+1080:[1077:Se, 1079:Ju, 1062:So, 1068:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1072:Se:3
+
+1081:[1077:Se, 1079:Ju, 1062:So, 1068:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1072:Se:2
+
+1082:[1077:Se, 1079:Ju, 1062:So, 1068:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1072:Se:1
+
+Customer# 1072:Se leaves and his/her total wait time is 11
+
+1083:[1068:Ju, 1079:Ju, 1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1077:Se:4
+
+1084:[1068:Ju, 1079:Ju, 1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1077:Se:3
+
+1085:[1068:Ju, 1079:Ju, 1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1077:Se:2
+
+1086:[1068:Ju, 1079:Ju, 1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1077:Se:1
+
+Customer# 1077:Se leaves and his/her total wait time is 10
+
+1087:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:7
+
+1088:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:6
+
+1089:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:5
+
+1090:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:4
+
+1091:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:3
+
+1092:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:2
+
+1093:[1062:So, 1079:Ju, 1063:Fr, 1078:So]
+  Service Area #1: 1068:Ju:1
+
+Customer# 1068:Ju leaves and his/her total wait time is 26
+
+1094:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:7
+
+1095:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:6
+
+1096:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:5
+
+1097:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:4
+
+1098:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:3
+
+1099:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:2
+
+1100:[1062:So, 1078:So, 1063:Fr]
+  Service Area #1: 1079:Ju:1
+
+Customer# 1079:Ju leaves and his/her total wait time is 22
+
+1101:[1063:Fr, 1078:So]
+  Service Area #1: 1062:So:6
+
+1102:[1063:Fr, 1078:So]
+  Service Area #1: 1062:So:5
+
+1103:[1063:Fr, 1078:So]
+  Service Area #1: 1062:So:4
+
+1104:[1063:Fr, 1078:So]
+  Service Area #1: 1062:So:3
+
+1105:[1063:Fr, 1078:So]
+  Service Area #1: 1062:So:2
+
+1106:[1063:Fr, 1078:So]
+  Service Area #1: 1062:So:1
+
+Customer# 1062:So leaves and his/her total wait time is 45
+
+1107:[1063:Fr]
+  Service Area #1: 1078:So:6
+
+1108:[1063:Fr]
+  Service Area #1: 1078:So:5
+
+1109:[1063:Fr]
+  Service Area #1: 1078:So:4
+
+1110:[1063:Fr]
+  Service Area #1: 1078:So:3
+
+1111:[1063:Fr]
+  Service Area #1: 1078:So:2
+
+1112:[1063:Fr]
+  Service Area #1: 1078:So:1
+
+Customer# 1078:So leaves and his/her total wait time is 35
+
+1113: []
+  Service Area #1: 1063:Fr:5
+
+1114: []
+  Service Area #1: 1063:Fr:4
+
+1115: []
+  Service Area #1: 1063:Fr:3
+
+1116: []
+  Service Area #1: 1063:Fr:2
+
+1117: []
+  Service Area #1: 1063:Fr:1
+
+Customer# 1063:Fr leaves and his/her total wait time is 55
+
+Customer		Total		Longest		Average Wait
+Senior			61			13			6.967213114754099
+Junior			64			33			11.1875
+Sophomore			45			45			15.4
+Freshman			51			172			51.0
